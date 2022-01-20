@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049E9B6B2799AFDC00C1C376 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E9B6A2799AFDC00C1C376 /* AppDelegate.m */; };
+		049E9B6E2799AFDC00C1C376 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E9B6D2799AFDC00C1C376 /* SceneDelegate.m */; };
+		049E9B712799AFDC00C1C376 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E9B702799AFDC00C1C376 /* ViewController.m */; };
+		049E9B742799AFDC00C1C376 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049E9B722799AFDC00C1C376 /* Main.storyboard */; };
+		049E9B762799AFDF00C1C376 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049E9B752799AFDF00C1C376 /* Assets.xcassets */; };
+		049E9B792799AFDF00C1C376 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049E9B772799AFDF00C1C376 /* LaunchScreen.storyboard */; };
+		049E9B7C2799AFDF00C1C376 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E9B7B2799AFDF00C1C376 /* main.m */; };
+		049E9B862799AFE000C1C376 /* ZZMemorialDayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E9B852799AFE000C1C376 /* ZZMemorialDayTests.m */; };
+		049E9B912799AFE000C1C376 /* ZZMemorialDayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E9B902799AFE000C1C376 /* ZZMemorialDayUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		049E9B822799AFE000C1C376 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049E9B5E2799AFDC00C1C376 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 049E9B652799AFDC00C1C376;
+			remoteInfo = ZZMemorialDay;
+		};
+		049E9B8D2799AFE000C1C376 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049E9B5E2799AFDC00C1C376 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 049E9B652799AFDC00C1C376;
+			remoteInfo = ZZMemorialDay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		049E9B662799AFDC00C1C376 /* ZZMemorialDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZMemorialDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		049E9B692799AFDC00C1C376 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		049E9B6A2799AFDC00C1C376 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		049E9B6C2799AFDC00C1C376 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		049E9B6D2799AFDC00C1C376 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		049E9B6F2799AFDC00C1C376 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		049E9B702799AFDC00C1C376 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		049E9B732799AFDC00C1C376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		049E9B752799AFDF00C1C376 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		049E9B782799AFDF00C1C376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		049E9B7A2799AFDF00C1C376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049E9B7B2799AFDF00C1C376 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		049E9B812799AFE000C1C376 /* ZZMemorialDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZMemorialDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		049E9B852799AFE000C1C376 /* ZZMemorialDayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZMemorialDayTests.m; sourceTree = "<group>"; };
+		049E9B872799AFE000C1C376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049E9B8C2799AFE000C1C376 /* ZZMemorialDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZMemorialDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		049E9B902799AFE000C1C376 /* ZZMemorialDayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZMemorialDayUITests.m; sourceTree = "<group>"; };
+		049E9B922799AFE000C1C376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		049E9B632799AFDC00C1C376 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049E9B7E2799AFE000C1C376 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049E9B892799AFE000C1C376 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049E9B5D2799AFDC00C1C376 = {
+			isa = PBXGroup;
+			children = (
+				049E9B682799AFDC00C1C376 /* ZZMemorialDay */,
+				049E9B842799AFE000C1C376 /* ZZMemorialDayTests */,
+				049E9B8F2799AFE000C1C376 /* ZZMemorialDayUITests */,
+				049E9B672799AFDC00C1C376 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		049E9B672799AFDC00C1C376 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				049E9B662799AFDC00C1C376 /* ZZMemorialDay.app */,
+				049E9B812799AFE000C1C376 /* ZZMemorialDayTests.xctest */,
+				049E9B8C2799AFE000C1C376 /* ZZMemorialDayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		049E9B682799AFDC00C1C376 /* ZZMemorialDay */ = {
+			isa = PBXGroup;
+			children = (
+				049E9B692799AFDC00C1C376 /* AppDelegate.h */,
+				049E9B6A2799AFDC00C1C376 /* AppDelegate.m */,
+				049E9B6C2799AFDC00C1C376 /* SceneDelegate.h */,
+				049E9B6D2799AFDC00C1C376 /* SceneDelegate.m */,
+				049E9B6F2799AFDC00C1C376 /* ViewController.h */,
+				049E9B702799AFDC00C1C376 /* ViewController.m */,
+				049E9B722799AFDC00C1C376 /* Main.storyboard */,
+				049E9B752799AFDF00C1C376 /* Assets.xcassets */,
+				049E9B772799AFDF00C1C376 /* LaunchScreen.storyboard */,
+				049E9B7A2799AFDF00C1C376 /* Info.plist */,
+				049E9B7B2799AFDF00C1C376 /* main.m */,
+			);
+			path = ZZMemorialDay;
+			sourceTree = "<group>";
+		};
+		049E9B842799AFE000C1C376 /* ZZMemorialDayTests */ = {
+			isa = PBXGroup;
+			children = (
+				049E9B852799AFE000C1C376 /* ZZMemorialDayTests.m */,
+				049E9B872799AFE000C1C376 /* Info.plist */,
+			);
+			path = ZZMemorialDayTests;
+			sourceTree = "<group>";
+		};
+		049E9B8F2799AFE000C1C376 /* ZZMemorialDayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				049E9B902799AFE000C1C376 /* ZZMemorialDayUITests.m */,
+				049E9B922799AFE000C1C376 /* Info.plist */,
+			);
+			path = ZZMemorialDayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		049E9B652799AFDC00C1C376 /* ZZMemorialDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049E9B952799AFE000C1C376 /* Build configuration list for PBXNativeTarget "ZZMemorialDay" */;
+			buildPhases = (
+				049E9B622799AFDC00C1C376 /* Sources */,
+				049E9B632799AFDC00C1C376 /* Frameworks */,
+				049E9B642799AFDC00C1C376 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZMemorialDay;
+			productName = ZZMemorialDay;
+			productReference = 049E9B662799AFDC00C1C376 /* ZZMemorialDay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		049E9B802799AFE000C1C376 /* ZZMemorialDayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049E9B982799AFE000C1C376 /* Build configuration list for PBXNativeTarget "ZZMemorialDayTests" */;
+			buildPhases = (
+				049E9B7D2799AFE000C1C376 /* Sources */,
+				049E9B7E2799AFE000C1C376 /* Frameworks */,
+				049E9B7F2799AFE000C1C376 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				049E9B832799AFE000C1C376 /* PBXTargetDependency */,
+			);
+			name = ZZMemorialDayTests;
+			productName = ZZMemorialDayTests;
+			productReference = 049E9B812799AFE000C1C376 /* ZZMemorialDayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		049E9B8B2799AFE000C1C376 /* ZZMemorialDayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049E9B9B2799AFE000C1C376 /* Build configuration list for PBXNativeTarget "ZZMemorialDayUITests" */;
+			buildPhases = (
+				049E9B882799AFE000C1C376 /* Sources */,
+				049E9B892799AFE000C1C376 /* Frameworks */,
+				049E9B8A2799AFE000C1C376 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				049E9B8E2799AFE000C1C376 /* PBXTargetDependency */,
+			);
+			name = ZZMemorialDayUITests;
+			productName = ZZMemorialDayUITests;
+			productReference = 049E9B8C2799AFE000C1C376 /* ZZMemorialDayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		049E9B5E2799AFDC00C1C376 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					049E9B652799AFDC00C1C376 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					049E9B802799AFE000C1C376 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 049E9B652799AFDC00C1C376;
+					};
+					049E9B8B2799AFE000C1C376 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 049E9B652799AFDC00C1C376;
+					};
+				};
+			};
+			buildConfigurationList = 049E9B612799AFDC00C1C376 /* Build configuration list for PBXProject "ZZMemorialDay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 049E9B5D2799AFDC00C1C376;
+			productRefGroup = 049E9B672799AFDC00C1C376 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				049E9B652799AFDC00C1C376 /* ZZMemorialDay */,
+				049E9B802799AFE000C1C376 /* ZZMemorialDayTests */,
+				049E9B8B2799AFE000C1C376 /* ZZMemorialDayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		049E9B642799AFDC00C1C376 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049E9B792799AFDF00C1C376 /* LaunchScreen.storyboard in Resources */,
+				049E9B762799AFDF00C1C376 /* Assets.xcassets in Resources */,
+				049E9B742799AFDC00C1C376 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049E9B7F2799AFE000C1C376 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049E9B8A2799AFE000C1C376 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		049E9B622799AFDC00C1C376 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049E9B712799AFDC00C1C376 /* ViewController.m in Sources */,
+				049E9B6B2799AFDC00C1C376 /* AppDelegate.m in Sources */,
+				049E9B7C2799AFDF00C1C376 /* main.m in Sources */,
+				049E9B6E2799AFDC00C1C376 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049E9B7D2799AFE000C1C376 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049E9B862799AFE000C1C376 /* ZZMemorialDayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049E9B882799AFE000C1C376 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049E9B912799AFE000C1C376 /* ZZMemorialDayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		049E9B832799AFE000C1C376 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 049E9B652799AFDC00C1C376 /* ZZMemorialDay */;
+			targetProxy = 049E9B822799AFE000C1C376 /* PBXContainerItemProxy */;
+		};
+		049E9B8E2799AFE000C1C376 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 049E9B652799AFDC00C1C376 /* ZZMemorialDay */;
+			targetProxy = 049E9B8D2799AFE000C1C376 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		049E9B722799AFDC00C1C376 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049E9B732799AFDC00C1C376 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		049E9B772799AFDF00C1C376 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049E9B782799AFDF00C1C376 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		049E9B932799AFE000C1C376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		049E9B942799AFE000C1C376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		049E9B962799AFE000C1C376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GT792YJWB5;
+				INFOPLIST_FILE = ZZMemorialDay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.memorialDay.www.ZZMemorialDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		049E9B972799AFE000C1C376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GT792YJWB5;
+				INFOPLIST_FILE = ZZMemorialDay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.memorialDay.www.ZZMemorialDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		049E9B992799AFE000C1C376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GT792YJWB5;
+				INFOPLIST_FILE = ZZMemorialDayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.memorialDay.www.ZZMemorialDayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZMemorialDay.app/ZZMemorialDay";
+			};
+			name = Debug;
+		};
+		049E9B9A2799AFE000C1C376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GT792YJWB5;
+				INFOPLIST_FILE = ZZMemorialDayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.memorialDay.www.ZZMemorialDayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZMemorialDay.app/ZZMemorialDay";
+			};
+			name = Release;
+		};
+		049E9B9C2799AFE000C1C376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GT792YJWB5;
+				INFOPLIST_FILE = ZZMemorialDayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.memorialDay.www.ZZMemorialDayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZZMemorialDay;
+			};
+			name = Debug;
+		};
+		049E9B9D2799AFE000C1C376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GT792YJWB5;
+				INFOPLIST_FILE = ZZMemorialDayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.memorialDay.www.ZZMemorialDayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZZMemorialDay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		049E9B612799AFDC00C1C376 /* Build configuration list for PBXProject "ZZMemorialDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049E9B932799AFE000C1C376 /* Debug */,
+				049E9B942799AFE000C1C376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049E9B952799AFE000C1C376 /* Build configuration list for PBXNativeTarget "ZZMemorialDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049E9B962799AFE000C1C376 /* Debug */,
+				049E9B972799AFE000C1C376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049E9B982799AFE000C1C376 /* Build configuration list for PBXNativeTarget "ZZMemorialDayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049E9B992799AFE000C1C376 /* Debug */,
+				049E9B9A2799AFE000C1C376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049E9B9B2799AFE000C1C376 /* Build configuration list for PBXNativeTarget "ZZMemorialDayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049E9B9C2799AFE000C1C376 /* Debug */,
+				049E9B9D2799AFE000C1C376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 049E9B5E2799AFDC00C1C376 /* Project object */;
+}
