@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040E98B9279C4D0F0070B5E6 /* DWSettingStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98B8279C4D0F0070B5E6 /* DWSettingStore.m */; };
 		049E9B6B2799AFDC00C1C376 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E9B6A2799AFDC00C1C376 /* AppDelegate.m */; };
 		049E9B712799AFDC00C1C376 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E9B702799AFDC00C1C376 /* ViewController.m */; };
 		049E9B742799AFDC00C1C376 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049E9B722799AFDC00C1C376 /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040E98B7279C4D0E0070B5E6 /* DWSettingStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWSettingStore.h; sourceTree = "<group>"; };
+		040E98B8279C4D0F0070B5E6 /* DWSettingStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWSettingStore.m; sourceTree = "<group>"; };
 		049E9B662799AFDC00C1C376 /* ZZMemorialDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZMemorialDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049E9B692799AFDC00C1C376 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		049E9B6A2799AFDC00C1C376 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				049E9B6A2799AFDC00C1C376 /* AppDelegate.m */,
 				049E9B6F2799AFDC00C1C376 /* ViewController.h */,
 				049E9B702799AFDC00C1C376 /* ViewController.m */,
+				040E98B7279C4D0E0070B5E6 /* DWSettingStore.h */,
+				040E98B8279C4D0F0070B5E6 /* DWSettingStore.m */,
 				049E9B722799AFDC00C1C376 /* Main.storyboard */,
 				049E9B752799AFDF00C1C376 /* Assets.xcassets */,
 				049E9B772799AFDF00C1C376 /* LaunchScreen.storyboard */,
@@ -262,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				049E9B712799AFDC00C1C376 /* ViewController.m in Sources */,
+				040E98B9279C4D0F0070B5E6 /* DWSettingStore.m in Sources */,
 				049E9B6B2799AFDC00C1C376 /* AppDelegate.m in Sources */,
 				049E9B7C2799AFDF00C1C376 /* main.m in Sources */,
 			);
