@@ -71,7 +71,8 @@
     if (!_arrayNumButton) {
         NSMutableArray *array = [[NSMutableArray alloc] initWithCapacity:10];
         for (int i = 1; i <= 9; i++) {
-            DWPasswordNumberButton *button = [[DWPasswordNumberButton alloc] initWithFrame:CGRectMake(DWPasswordNumButtonLeftPadding + (DWPasswordNumButtonMargin + DWPasswordNumButtonWidth) * ((i - 1) % 3), DWPasswordNumButtonTopPadding + (DWPasswordNumButtonMargin + DWPasswordNumButtonWidth) * ((i - 1) / 3), DWPasswordNumButtonWidth, DWPasswordNumButtonWidth) number:i];
+            CGFloat marginW = (DWScreenWidth-DWPasswordNumButtonWidth*3)/4;
+            DWPasswordNumberButton *button = [[DWPasswordNumberButton alloc] initWithFrame:CGRectMake(marginW + (marginW + DWPasswordNumButtonWidth) * ((i - 1) % 3), DWPasswordNumButtonTopPadding + (DWPasswordNumButtonMargin + DWPasswordNumButtonWidth) * ((i - 1) / 3), DWPasswordNumButtonWidth, DWPasswordNumButtonWidth) number:i];
             button.tag = i;
             [button addTarget:self action:@selector(buttonNumberTap:) forControlEvents:UIControlEventTouchUpInside];
             [array addObject:button];
