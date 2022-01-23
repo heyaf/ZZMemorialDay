@@ -11,7 +11,7 @@
 #import "DWPasswordDisplayView.h"
 #import "DWPasswordChecker.h"
 #import <LocalAuthentication/LocalAuthentication.h>
-#import "Constants.h"
+#import "PrefixHeader.pch"
 
 @interface DWPasswordViewController ()
 

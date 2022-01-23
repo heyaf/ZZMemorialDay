@@ -9,7 +9,7 @@
 #import "DWDiaryCalendarScrollView.h"
 #import "DWDiaryCalendarView.h"
 #import "ViewController.h"
-#import "Constants.h"
+#import "PrefixHeader.pch"
 
 @interface DWDiaryCalendarScrollView()
 

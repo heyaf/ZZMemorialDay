@@ -7,7 +7,7 @@
 //
 
 #import "DWDiaryLineImageView.h"
-#import "Constants.h"
+#import "PrefixHeader.pch"
 
 @implementation DWDiaryLineImageView
 

@@ -12,8 +12,7 @@
 #import "DWDiaryTypingView.h"
 #import "DWDiaryDismissKeyboardButton.h"
 #import "DWDiaryContentView.h"
-#import "Constants.h"
-
+#import "PrefixHeader.pch"
 //#import "DWPasswordViewController.h"
 #import "DWSettingViewController.h"
 

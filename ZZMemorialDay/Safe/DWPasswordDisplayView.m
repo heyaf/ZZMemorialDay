@@ -7,7 +7,7 @@
 //
 
 #import "DWPasswordDisplayView.h"
-#import "Constants.h"
+#import "PrefixHeader.pch"
 
 @interface DWPasswordDisplayView()
 

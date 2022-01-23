@@ -8,7 +8,7 @@
 
 #import "DWDiaryContentView.h"
 #import "DWDiaryAlertView.h"
-#import "Constants.h"
+#import "PrefixHeader.pch"
 
 @interface DWDiaryContentView() <DWDiaryAlertDelegate>
 

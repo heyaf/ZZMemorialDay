@@ -12,7 +12,7 @@
 #import "DWSettingStore.h"
 #import "DWUserInfo.h"
 #import "AppDelegate.h"
-#import "Constants.h"
+#import "PrefixHeader.pch"
 
 @interface DWSettingViewController () <UITableViewDelegate, UITableViewDataSource, DWSettingSwitchCellDelegate, DWPasswordViewControllerDelegate>
 

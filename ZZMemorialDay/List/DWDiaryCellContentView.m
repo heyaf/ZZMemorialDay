@@ -7,7 +7,7 @@
 //
 
 #import "DWDiaryCellContentView.h"
-#import "Constants.h"
+#import "PrefixHeader.pch"
 
 @interface DWDiaryCellContentView()
 

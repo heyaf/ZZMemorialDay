@@ -7,7 +7,7 @@
 //
 
 #import "DWDiaryTypingCalendarView.h"
-#import "Constants.h"
+#import "PrefixHeader.pch"
 
 @interface DWDiaryTypingCalendarView()
 

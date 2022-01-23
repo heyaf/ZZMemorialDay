@@ -11,7 +11,7 @@
 #import "DWDiaryEmotionSelectorView.h"
 #import "DWDiaryWeatherSelectorView.h"
 #import "DWDiaryTipsView.h"
-#import "Constants.h"
+#import "PrefixHeader.pch"
 
 @interface DWDiaryTypingView() <DWDiaryEmotionSelectorDelegate, DWDiaryWeatherSelectorDelegate>
 

@@ -8,7 +8,7 @@
 
 #import "DWSettingSwitchTableViewCell.h"
 #import "DWSettingStore.h"
-#import "Constants.h"
+#import "PrefixHeader.pch"
 
 @implementation DWSettingSwitchTableViewCell
 

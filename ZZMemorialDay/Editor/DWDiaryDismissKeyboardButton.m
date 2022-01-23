@@ -7,7 +7,7 @@
 //
 
 #import "DWDiaryDismissKeyboardButton.h"
-#import "Constants.h"
+#import "PrefixHeader.pch"
 
 @implementation DWDiaryDismissKeyboardButton
 
