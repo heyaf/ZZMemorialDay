@@ -8,6 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		040E98B9279C4D0F0070B5E6 /* DWSettingStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98B8279C4D0F0070B5E6 /* DWSettingStore.m */; };
+		040E98E7279D81DF0070B5E6 /* DWDiaryWeatherSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98BC279D81DE0070B5E6 /* DWDiaryWeatherSelectorView.m */; };
+		040E98E8279D81DF0070B5E6 /* DWDiaryDismissKeyboardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98BE279D81DE0070B5E6 /* DWDiaryDismissKeyboardButton.m */; };
+		040E98E9279D81DF0070B5E6 /* DWDiaryLineImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98C2279D81DE0070B5E6 /* DWDiaryLineImageView.m */; };
+		040E98EA279D81DF0070B5E6 /* DWDiaryEmotionSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98C3279D81DE0070B5E6 /* DWDiaryEmotionSelectorView.m */; };
+		040E98EB279D81DF0070B5E6 /* DWDiaryTypingCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98C4279D81DE0070B5E6 /* DWDiaryTypingCalendarView.m */; };
+		040E98EC279D81DF0070B5E6 /* DWDiaryTypingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98C5279D81DF0070B5E6 /* DWDiaryTypingView.m */; };
+		040E98ED279D81DF0070B5E6 /* DWSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98C8279D81DF0070B5E6 /* DWSettingViewController.m */; };
+		040E98EE279D81DF0070B5E6 /* DWUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98C9279D81DF0070B5E6 /* DWUserInfo.m */; };
+		040E98EF279D81DF0070B5E6 /* DWSettingSwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98CD279D81DF0070B5E6 /* DWSettingSwitchTableViewCell.m */; };
+		040E98F0279D81DF0070B5E6 /* DWDiaryCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98CF279D81DF0070B5E6 /* DWDiaryCalendarView.m */; };
+		040E98F1279D81DF0070B5E6 /* DWDiaryCalendarScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98D2279D81DF0070B5E6 /* DWDiaryCalendarScrollView.m */; };
+		040E98F2279D81DF0070B5E6 /* DWDiaryAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98D4279D81DF0070B5E6 /* DWDiaryAlertView.m */; };
+		040E98F3279D81DF0070B5E6 /* DWDiaryCellContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98D6279D81DF0070B5E6 /* DWDiaryCellContentView.m */; };
+		040E98F4279D81DF0070B5E6 /* DWDiaryTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98DA279D81DF0070B5E6 /* DWDiaryTipsView.m */; };
+		040E98F5279D81DF0070B5E6 /* DWDiaryContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98DB279D81DF0070B5E6 /* DWDiaryContentView.m */; };
+		040E98F6279D81DF0070B5E6 /* DWDiaryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98DC279D81DF0070B5E6 /* DWDiaryTableViewCell.m */; };
+		040E98F7279D81DF0070B5E6 /* DWPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98DF279D81DF0070B5E6 /* DWPasswordViewController.m */; };
+		040E98F8279D81DF0070B5E6 /* DWPasswordNumberButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98E1279D81DF0070B5E6 /* DWPasswordNumberButton.m */; };
+		040E98F9279D81DF0070B5E6 /* DWPasswordDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98E2279D81DF0070B5E6 /* DWPasswordDisplayView.m */; };
+		040E98FA279D81DF0070B5E6 /* DWPasswordChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98E5279D81DF0070B5E6 /* DWPasswordChecker.m */; };
+		040E98FE279D83610070B5E6 /* Diary_WhatsUrName_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 040E98FC279D83600070B5E6 /* Diary_WhatsUrName_.xcdatamodeld */; };
 		049E9B6B2799AFDC00C1C376 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E9B6A2799AFDC00C1C376 /* AppDelegate.m */; };
 		049E9B712799AFDC00C1C376 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E9B702799AFDC00C1C376 /* ViewController.m */; };
 		049E9B742799AFDC00C1C376 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049E9B722799AFDC00C1C376 /* Main.storyboard */; };
@@ -38,6 +59,48 @@
 /* Begin PBXFileReference section */
 		040E98B7279C4D0E0070B5E6 /* DWSettingStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWSettingStore.h; sourceTree = "<group>"; };
 		040E98B8279C4D0F0070B5E6 /* DWSettingStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWSettingStore.m; sourceTree = "<group>"; };
+		040E98BB279D81DE0070B5E6 /* DWDiaryLineImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDiaryLineImageView.h; sourceTree = "<group>"; };
+		040E98BC279D81DE0070B5E6 /* DWDiaryWeatherSelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDiaryWeatherSelectorView.m; sourceTree = "<group>"; };
+		040E98BD279D81DE0070B5E6 /* DWDiaryEmotionSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDiaryEmotionSelectorView.h; sourceTree = "<group>"; };
+		040E98BE279D81DE0070B5E6 /* DWDiaryDismissKeyboardButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDiaryDismissKeyboardButton.m; sourceTree = "<group>"; };
+		040E98BF279D81DE0070B5E6 /* DWDiaryTypingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDiaryTypingView.h; sourceTree = "<group>"; };
+		040E98C0279D81DE0070B5E6 /* DWDiaryTypingCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDiaryTypingCalendarView.h; sourceTree = "<group>"; };
+		040E98C1279D81DE0070B5E6 /* DWDiaryWeatherSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDiaryWeatherSelectorView.h; sourceTree = "<group>"; };
+		040E98C2279D81DE0070B5E6 /* DWDiaryLineImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDiaryLineImageView.m; sourceTree = "<group>"; };
+		040E98C3279D81DE0070B5E6 /* DWDiaryEmotionSelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDiaryEmotionSelectorView.m; sourceTree = "<group>"; };
+		040E98C4279D81DE0070B5E6 /* DWDiaryTypingCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDiaryTypingCalendarView.m; sourceTree = "<group>"; };
+		040E98C5279D81DF0070B5E6 /* DWDiaryTypingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDiaryTypingView.m; sourceTree = "<group>"; };
+		040E98C6279D81DF0070B5E6 /* DWDiaryDismissKeyboardButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDiaryDismissKeyboardButton.h; sourceTree = "<group>"; };
+		040E98C8279D81DF0070B5E6 /* DWSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWSettingViewController.m; sourceTree = "<group>"; };
+		040E98C9279D81DF0070B5E6 /* DWUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWUserInfo.m; sourceTree = "<group>"; };
+		040E98CA279D81DF0070B5E6 /* DWSettingSwitchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWSettingSwitchTableViewCell.h; sourceTree = "<group>"; };
+		040E98CB279D81DF0070B5E6 /* DWSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWSettingViewController.h; sourceTree = "<group>"; };
+		040E98CC279D81DF0070B5E6 /* DWUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWUserInfo.h; sourceTree = "<group>"; };
+		040E98CD279D81DF0070B5E6 /* DWSettingSwitchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWSettingSwitchTableViewCell.m; sourceTree = "<group>"; };
+		040E98CF279D81DF0070B5E6 /* DWDiaryCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDiaryCalendarView.m; sourceTree = "<group>"; };
+		040E98D0279D81DF0070B5E6 /* DWDiaryCalendarScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDiaryCalendarScrollView.h; sourceTree = "<group>"; };
+		040E98D1279D81DF0070B5E6 /* DWDiaryCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDiaryCalendarView.h; sourceTree = "<group>"; };
+		040E98D2279D81DF0070B5E6 /* DWDiaryCalendarScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDiaryCalendarScrollView.m; sourceTree = "<group>"; };
+		040E98D4279D81DF0070B5E6 /* DWDiaryAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDiaryAlertView.m; sourceTree = "<group>"; };
+		040E98D5279D81DF0070B5E6 /* DWDiaryTipsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDiaryTipsView.h; sourceTree = "<group>"; };
+		040E98D6279D81DF0070B5E6 /* DWDiaryCellContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDiaryCellContentView.m; sourceTree = "<group>"; };
+		040E98D7279D81DF0070B5E6 /* DWDiaryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDiaryTableViewCell.h; sourceTree = "<group>"; };
+		040E98D8279D81DF0070B5E6 /* DWDiaryContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDiaryContentView.h; sourceTree = "<group>"; };
+		040E98D9279D81DF0070B5E6 /* DWDiaryAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDiaryAlertView.h; sourceTree = "<group>"; };
+		040E98DA279D81DF0070B5E6 /* DWDiaryTipsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDiaryTipsView.m; sourceTree = "<group>"; };
+		040E98DB279D81DF0070B5E6 /* DWDiaryContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDiaryContentView.m; sourceTree = "<group>"; };
+		040E98DC279D81DF0070B5E6 /* DWDiaryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDiaryTableViewCell.m; sourceTree = "<group>"; };
+		040E98DD279D81DF0070B5E6 /* DWDiaryCellContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDiaryCellContentView.h; sourceTree = "<group>"; };
+		040E98DF279D81DF0070B5E6 /* DWPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWPasswordViewController.m; sourceTree = "<group>"; };
+		040E98E0279D81DF0070B5E6 /* DWPasswordChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWPasswordChecker.h; sourceTree = "<group>"; };
+		040E98E1279D81DF0070B5E6 /* DWPasswordNumberButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWPasswordNumberButton.m; sourceTree = "<group>"; };
+		040E98E2279D81DF0070B5E6 /* DWPasswordDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWPasswordDisplayView.m; sourceTree = "<group>"; };
+		040E98E3279D81DF0070B5E6 /* DWPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWPasswordViewController.h; sourceTree = "<group>"; };
+		040E98E4279D81DF0070B5E6 /* DWPasswordNumberButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWPasswordNumberButton.h; sourceTree = "<group>"; };
+		040E98E5279D81DF0070B5E6 /* DWPasswordChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWPasswordChecker.m; sourceTree = "<group>"; };
+		040E98E6279D81DF0070B5E6 /* DWPasswordDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWPasswordDisplayView.h; sourceTree = "<group>"; };
+		040E98FB279D83540070B5E6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		040E98FD279D83600070B5E6 /* Diary_WhatsUrName_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Diary_WhatsUrName_.xcdatamodel; sourceTree = "<group>"; };
 		049E9B662799AFDC00C1C376 /* ZZMemorialDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZMemorialDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049E9B692799AFDC00C1C376 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		049E9B6A2799AFDC00C1C376 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,6 +144,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040E98BA279D81DE0070B5E6 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				040E98BB279D81DE0070B5E6 /* DWDiaryLineImageView.h */,
+				040E98BC279D81DE0070B5E6 /* DWDiaryWeatherSelectorView.m */,
+				040E98BD279D81DE0070B5E6 /* DWDiaryEmotionSelectorView.h */,
+				040E98BE279D81DE0070B5E6 /* DWDiaryDismissKeyboardButton.m */,
+				040E98BF279D81DE0070B5E6 /* DWDiaryTypingView.h */,
+				040E98C0279D81DE0070B5E6 /* DWDiaryTypingCalendarView.h */,
+				040E98C1279D81DE0070B5E6 /* DWDiaryWeatherSelectorView.h */,
+				040E98C2279D81DE0070B5E6 /* DWDiaryLineImageView.m */,
+				040E98C3279D81DE0070B5E6 /* DWDiaryEmotionSelectorView.m */,
+				040E98C4279D81DE0070B5E6 /* DWDiaryTypingCalendarView.m */,
+				040E98C5279D81DF0070B5E6 /* DWDiaryTypingView.m */,
+				040E98C6279D81DF0070B5E6 /* DWDiaryDismissKeyboardButton.h */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		040E98C7279D81DF0070B5E6 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				040E98C8279D81DF0070B5E6 /* DWSettingViewController.m */,
+				040E98C9279D81DF0070B5E6 /* DWUserInfo.m */,
+				040E98CA279D81DF0070B5E6 /* DWSettingSwitchTableViewCell.h */,
+				040E98CB279D81DF0070B5E6 /* DWSettingViewController.h */,
+				040E98CC279D81DF0070B5E6 /* DWUserInfo.h */,
+				040E98CD279D81DF0070B5E6 /* DWSettingSwitchTableViewCell.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		040E98CE279D81DF0070B5E6 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				040E98CF279D81DF0070B5E6 /* DWDiaryCalendarView.m */,
+				040E98D0279D81DF0070B5E6 /* DWDiaryCalendarScrollView.h */,
+				040E98D1279D81DF0070B5E6 /* DWDiaryCalendarView.h */,
+				040E98D2279D81DF0070B5E6 /* DWDiaryCalendarScrollView.m */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		040E98D3279D81DF0070B5E6 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				040E98D4279D81DF0070B5E6 /* DWDiaryAlertView.m */,
+				040E98D5279D81DF0070B5E6 /* DWDiaryTipsView.h */,
+				040E98D6279D81DF0070B5E6 /* DWDiaryCellContentView.m */,
+				040E98D7279D81DF0070B5E6 /* DWDiaryTableViewCell.h */,
+				040E98D8279D81DF0070B5E6 /* DWDiaryContentView.h */,
+				040E98D9279D81DF0070B5E6 /* DWDiaryAlertView.h */,
+				040E98DA279D81DF0070B5E6 /* DWDiaryTipsView.m */,
+				040E98DB279D81DF0070B5E6 /* DWDiaryContentView.m */,
+				040E98DC279D81DF0070B5E6 /* DWDiaryTableViewCell.m */,
+				040E98DD279D81DF0070B5E6 /* DWDiaryCellContentView.h */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		040E98DE279D81DF0070B5E6 /* Safe */ = {
+			isa = PBXGroup;
+			children = (
+				040E98DF279D81DF0070B5E6 /* DWPasswordViewController.m */,
+				040E98E0279D81DF0070B5E6 /* DWPasswordChecker.h */,
+				040E98E1279D81DF0070B5E6 /* DWPasswordNumberButton.m */,
+				040E98E2279D81DF0070B5E6 /* DWPasswordDisplayView.m */,
+				040E98E3279D81DF0070B5E6 /* DWPasswordViewController.h */,
+				040E98E4279D81DF0070B5E6 /* DWPasswordNumberButton.h */,
+				040E98E5279D81DF0070B5E6 /* DWPasswordChecker.m */,
+				040E98E6279D81DF0070B5E6 /* DWPasswordDisplayView.h */,
+			);
+			path = Safe;
+			sourceTree = "<group>";
+		};
 		049E9B5D2799AFDC00C1C376 = {
 			isa = PBXGroup;
 			children = (
@@ -104,17 +242,24 @@
 		049E9B682799AFDC00C1C376 /* ZZMemorialDay */ = {
 			isa = PBXGroup;
 			children = (
+				040E98FC279D83600070B5E6 /* Diary_WhatsUrName_.xcdatamodeld */,
 				049E9B692799AFDC00C1C376 /* AppDelegate.h */,
 				049E9B6A2799AFDC00C1C376 /* AppDelegate.m */,
 				049E9B6F2799AFDC00C1C376 /* ViewController.h */,
 				049E9B702799AFDC00C1C376 /* ViewController.m */,
 				040E98B7279C4D0E0070B5E6 /* DWSettingStore.h */,
 				040E98B8279C4D0F0070B5E6 /* DWSettingStore.m */,
+				040E98CE279D81DF0070B5E6 /* Calendar */,
+				040E98BA279D81DE0070B5E6 /* Editor */,
+				040E98D3279D81DF0070B5E6 /* List */,
+				040E98DE279D81DF0070B5E6 /* Safe */,
+				040E98C7279D81DF0070B5E6 /* Setting */,
 				049E9B722799AFDC00C1C376 /* Main.storyboard */,
 				049E9B752799AFDF00C1C376 /* Assets.xcassets */,
 				049E9B772799AFDF00C1C376 /* LaunchScreen.storyboard */,
 				049E9B7A2799AFDF00C1C376 /* Info.plist */,
 				049E9B7B2799AFDF00C1C376 /* main.m */,
+				040E98FB279D83540070B5E6 /* PrefixHeader.pch */,
 			);
 			path = ZZMemorialDay;
 			sourceTree = "<group>";
@@ -266,10 +411,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040E98F6279D81DF0070B5E6 /* DWDiaryTableViewCell.m in Sources */,
+				040E98FA279D81DF0070B5E6 /* DWPasswordChecker.m in Sources */,
+				040E98E7279D81DF0070B5E6 /* DWDiaryWeatherSelectorView.m in Sources */,
 				049E9B712799AFDC00C1C376 /* ViewController.m in Sources */,
+				040E98ED279D81DF0070B5E6 /* DWSettingViewController.m in Sources */,
+				040E98F1279D81DF0070B5E6 /* DWDiaryCalendarScrollView.m in Sources */,
+				040E98F2279D81DF0070B5E6 /* DWDiaryAlertView.m in Sources */,
+				040E98EA279D81DF0070B5E6 /* DWDiaryEmotionSelectorView.m in Sources */,
 				040E98B9279C4D0F0070B5E6 /* DWSettingStore.m in Sources */,
+				040E98F0279D81DF0070B5E6 /* DWDiaryCalendarView.m in Sources */,
+				040E98EE279D81DF0070B5E6 /* DWUserInfo.m in Sources */,
+				040E98F8279D81DF0070B5E6 /* DWPasswordNumberButton.m in Sources */,
+				040E98E9279D81DF0070B5E6 /* DWDiaryLineImageView.m in Sources */,
 				049E9B6B2799AFDC00C1C376 /* AppDelegate.m in Sources */,
+				040E98EF279D81DF0070B5E6 /* DWSettingSwitchTableViewCell.m in Sources */,
+				040E98E8279D81DF0070B5E6 /* DWDiaryDismissKeyboardButton.m in Sources */,
+				040E98F5279D81DF0070B5E6 /* DWDiaryContentView.m in Sources */,
+				040E98FE279D83610070B5E6 /* Diary_WhatsUrName_.xcdatamodeld in Sources */,
+				040E98F4279D81DF0070B5E6 /* DWDiaryTipsView.m in Sources */,
 				049E9B7C2799AFDF00C1C376 /* main.m in Sources */,
+				040E98EC279D81DF0070B5E6 /* DWDiaryTypingView.m in Sources */,
+				040E98F7279D81DF0070B5E6 /* DWPasswordViewController.m in Sources */,
+				040E98F3279D81DF0070B5E6 /* DWDiaryCellContentView.m in Sources */,
+				040E98F9279D81DF0070B5E6 /* DWPasswordDisplayView.m in Sources */,
+				040E98EB279D81DF0070B5E6 /* DWDiaryTypingCalendarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +754,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		040E98FC279D83600070B5E6 /* Diary_WhatsUrName_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				040E98FD279D83600070B5E6 /* Diary_WhatsUrName_.xcdatamodel */,
+			);
+			currentVersion = 040E98FD279D83600070B5E6 /* Diary_WhatsUrName_.xcdatamodel */;
+			path = Diary_WhatsUrName_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 049E9B5E2799AFDC00C1C376 /* Project object */;
 }
