@@ -81,8 +81,9 @@ typedef enum : NSUInteger {
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     
-    [self.view addSubview:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bgd"]]];
+    [self.view addSubview:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bgImage"]]];
     
     CGRect rect = self.view.bounds;
     
