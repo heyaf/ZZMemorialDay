@@ -83,6 +83,7 @@
         rect.origin.x = self.frame.size.width / 2 - rect.size.width / 2;
         rect.origin.y = CGRectGetMaxY(self.labelDay.frame) + 20;
         self.labelWeek.frame = rect;
+        
     }
 }
 
