@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		040E98B9279C4D0F0070B5E6 /* DWSettingStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98B8279C4D0F0070B5E6 /* DWSettingStore.m */; };
-		040E98E7279D81DF0070B5E6 /* DWDiaryWeatherSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98BC279D81DE0070B5E6 /* DWDiaryWeatherSelectorView.m */; };
-		040E98E8279D81DF0070B5E6 /* DWDiaryDismissKeyboardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98BE279D81DE0070B5E6 /* DWDiaryDismissKeyboardButton.m */; };
-		040E98E9279D81DF0070B5E6 /* DWDiaryLineImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98C2279D81DE0070B5E6 /* DWDiaryLineImageView.m */; };
-		040E98EA279D81DF0070B5E6 /* DWDiaryEmotionSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98C3279D81DE0070B5E6 /* DWDiaryEmotionSelectorView.m */; };
-		040E98EB279D81DF0070B5E6 /* DWDiaryTypingCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98C4279D81DE0070B5E6 /* DWDiaryTypingCalendarView.m */; };
-		040E98EC279D81DF0070B5E6 /* DWDiaryTypingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98C5279D81DF0070B5E6 /* DWDiaryTypingView.m */; };
-		040E98ED279D81DF0070B5E6 /* DWSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98C8279D81DF0070B5E6 /* DWSettingViewController.m */; };
-		040E98EE279D81DF0070B5E6 /* DWUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98C9279D81DF0070B5E6 /* DWUserInfo.m */; };
-		040E98EF279D81DF0070B5E6 /* DWSettingSwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98CD279D81DF0070B5E6 /* DWSettingSwitchTableViewCell.m */; };
-		040E98F0279D81DF0070B5E6 /* DWDiaryCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98CF279D81DF0070B5E6 /* DWDiaryCalendarView.m */; };
-		040E98F1279D81DF0070B5E6 /* DWDiaryCalendarScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98D2279D81DF0070B5E6 /* DWDiaryCalendarScrollView.m */; };
-		040E98F2279D81DF0070B5E6 /* DWDiaryAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98D4279D81DF0070B5E6 /* DWDiaryAlertView.m */; };
-		040E98F3279D81DF0070B5E6 /* DWDiaryCellContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98D6279D81DF0070B5E6 /* DWDiaryCellContentView.m */; };
-		040E98F4279D81DF0070B5E6 /* DWDiaryTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98DA279D81DF0070B5E6 /* DWDiaryTipsView.m */; };
-		040E98F5279D81DF0070B5E6 /* DWDiaryContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98DB279D81DF0070B5E6 /* DWDiaryContentView.m */; };
-		040E98F6279D81DF0070B5E6 /* DWDiaryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98DC279D81DF0070B5E6 /* DWDiaryTableViewCell.m */; };
-		040E98F7279D81DF0070B5E6 /* DWPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98DF279D81DF0070B5E6 /* DWPasswordViewController.m */; };
-		040E98F8279D81DF0070B5E6 /* DWPasswordNumberButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98E1279D81DF0070B5E6 /* DWPasswordNumberButton.m */; };
-		040E98F9279D81DF0070B5E6 /* DWPasswordDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98E2279D81DF0070B5E6 /* DWPasswordDisplayView.m */; };
-		040E98FA279D81DF0070B5E6 /* DWPasswordChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98E5279D81DF0070B5E6 /* DWPasswordChecker.m */; };
+		040E98B9279C4D0F0070B5E6 /* NfMTDWSettingStoreTMfN.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98B8279C4D0F0070B5E6 /* NfMTDWSettingStoreTMfN.m */; };
+		040E98E7279D81DF0070B5E6 /* sEyYDWDiaryWeatherSelectorViewYyEs.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98BC279D81DE0070B5E6 /* sEyYDWDiaryWeatherSelectorViewYyEs.m */; };
+		040E98E8279D81DF0070B5E6 /* ZZDayCanWsRelease.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98BE279D81DE0070B5E6 /* ZZDayCanWsRelease.m */; };
+		040E98E9279D81DF0070B5E6 /* ByQuDWDiaryLineImageViewuQyB.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98C2279D81DE0070B5E6 /* ByQuDWDiaryLineImageViewuQyB.m */; };
+		040E98EA279D81DF0070B5E6 /* lRwUDWDiaryEmotionSelectorViewUwRl.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98C3279D81DE0070B5E6 /* lRwUDWDiaryEmotionSelectorViewUwRl.m */; };
+		040E98EB279D81DF0070B5E6 /* ERAJDWDiaryTypingCalendarViewJARE.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98C4279D81DE0070B5E6 /* ERAJDWDiaryTypingCalendarViewJARE.m */; };
+		040E98EC279D81DF0070B5E6 /* aaklDWDiaryTypingViewlkaa.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98C5279D81DF0070B5E6 /* aaklDWDiaryTypingViewlkaa.m */; };
+		040E98ED279D81DF0070B5E6 /* XbFSDWSettingViewControllerSFbX.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98C8279D81DF0070B5E6 /* XbFSDWSettingViewControllerSFbX.m */; };
+		040E98EE279D81DF0070B5E6 /* lUgwDWUserInfowgUl.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98C9279D81DF0070B5E6 /* lUgwDWUserInfowgUl.m */; };
+		040E98EF279D81DF0070B5E6 /* bjTFDWSettingSwitchTableViewCellFTjb.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98CD279D81DF0070B5E6 /* bjTFDWSettingSwitchTableViewCellFTjb.m */; };
+		040E98F0279D81DF0070B5E6 /* ZZDayObsEyeshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98CF279D81DF0070B5E6 /* ZZDayObsEyeshot.m */; };
+		040E98F1279D81DF0070B5E6 /* SpDaDWDiaryCalendarScrollViewaDpS.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98D2279D81DF0070B5E6 /* SpDaDWDiaryCalendarScrollViewaDpS.m */; };
+		040E98F2279D81DF0070B5E6 /* lWThDWDiaryAlertViewhTWl.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98D4279D81DF0070B5E6 /* lWThDWDiaryAlertViewhTWl.m */; };
+		040E98F3279D81DF0070B5E6 /* edLCDWDiaryCellContentViewCLde.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98D6279D81DF0070B5E6 /* edLCDWDiaryCellContentViewCLde.m */; };
+		040E98F4279D81DF0070B5E6 /* bvnsDWDiaryTipsViewsnvb.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98DA279D81DF0070B5E6 /* bvnsDWDiaryTipsViewsnvb.m */; };
+		040E98F5279D81DF0070B5E6 /* UlSsDWDiaryContentViewsSlU.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98DB279D81DF0070B5E6 /* UlSsDWDiaryContentViewsSlU.m */; };
+		040E98F6279D81DF0070B5E6 /* JiCBDWDiaryTableViewCellBCiJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98DC279D81DF0070B5E6 /* JiCBDWDiaryTableViewCellBCiJ.m */; };
+		040E98F7279D81DF0070B5E6 /* ZZWatchwordSceneComptroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98DF279D81DF0070B5E6 /* ZZWatchwordSceneComptroller.m */; };
+		040E98F8279D81DF0070B5E6 /* ZZWatchwordFigurePush.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98E1279D81DF0070B5E6 /* ZZWatchwordFigurePush.m */; };
+		040E98F9279D81DF0070B5E6 /* iQdBDWPasswordDisplayViewBdQi.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98E2279D81DF0070B5E6 /* iQdBDWPasswordDisplayViewBdQi.m */; };
+		040E98FA279D81DF0070B5E6 /* YbsODWPasswordCheckerOsbY.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E98E5279D81DF0070B5E6 /* YbsODWPasswordCheckerOsbY.m */; };
 		040E98FE279D83610070B5E6 /* Diary_WhatsUrName_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 040E98FC279D83600070B5E6 /* Diary_WhatsUrName_.xcdatamodeld */; };
 		049E9B6B2799AFDC00C1C376 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E9B6A2799AFDC00C1C376 /* AppDelegate.m */; };
 		049E9B712799AFDC00C1C376 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E9B702799AFDC00C1C376 /* ViewController.m */; };
@@ -35,8 +35,8 @@
 		049E9B762799AFDF00C1C376 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049E9B752799AFDF00C1C376 /* Assets.xcassets */; };
 		049E9B792799AFDF00C1C376 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049E9B772799AFDF00C1C376 /* LaunchScreen.storyboard */; };
 		049E9B7C2799AFDF00C1C376 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E9B7B2799AFDF00C1C376 /* main.m */; };
-		049E9B862799AFE000C1C376 /* ZZMemorialDayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E9B852799AFE000C1C376 /* ZZMemorialDayTests.m */; };
-		049E9B912799AFE000C1C376 /* ZZMemorialDayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E9B902799AFE000C1C376 /* ZZMemorialDayUITests.m */; };
+		049E9B862799AFE000C1C376 /* yHPvZZMemorialDayTestsvPHy.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E9B852799AFE000C1C376 /* yHPvZZMemorialDayTestsvPHy.m */; };
+		049E9B912799AFE000C1C376 /* LfyrZZMemorialDayUITestsryfL.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E9B902799AFE000C1C376 /* LfyrZZMemorialDayUITestsryfL.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,63 +45,63 @@
 			containerPortal = 049E9B5E2799AFDC00C1C376 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 049E9B652799AFDC00C1C376;
-			remoteInfo = ZZMemorialDay;
+			remoteInfo = hkIBZZMemorialDayBIkh;
 		};
 		049E9B8D2799AFE000C1C376 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 049E9B5E2799AFDC00C1C376 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 049E9B652799AFDC00C1C376;
-			remoteInfo = ZZMemorialDay;
+			remoteInfo = hkIBZZMemorialDayBIkh;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		040E98B7279C4D0E0070B5E6 /* DWSettingStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWSettingStore.h; sourceTree = "<group>"; };
-		040E98B8279C4D0F0070B5E6 /* DWSettingStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWSettingStore.m; sourceTree = "<group>"; };
-		040E98BB279D81DE0070B5E6 /* DWDiaryLineImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDiaryLineImageView.h; sourceTree = "<group>"; };
-		040E98BC279D81DE0070B5E6 /* DWDiaryWeatherSelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDiaryWeatherSelectorView.m; sourceTree = "<group>"; };
-		040E98BD279D81DE0070B5E6 /* DWDiaryEmotionSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDiaryEmotionSelectorView.h; sourceTree = "<group>"; };
-		040E98BE279D81DE0070B5E6 /* DWDiaryDismissKeyboardButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDiaryDismissKeyboardButton.m; sourceTree = "<group>"; };
-		040E98BF279D81DE0070B5E6 /* DWDiaryTypingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDiaryTypingView.h; sourceTree = "<group>"; };
-		040E98C0279D81DE0070B5E6 /* DWDiaryTypingCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDiaryTypingCalendarView.h; sourceTree = "<group>"; };
-		040E98C1279D81DE0070B5E6 /* DWDiaryWeatherSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDiaryWeatherSelectorView.h; sourceTree = "<group>"; };
-		040E98C2279D81DE0070B5E6 /* DWDiaryLineImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDiaryLineImageView.m; sourceTree = "<group>"; };
-		040E98C3279D81DE0070B5E6 /* DWDiaryEmotionSelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDiaryEmotionSelectorView.m; sourceTree = "<group>"; };
-		040E98C4279D81DE0070B5E6 /* DWDiaryTypingCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDiaryTypingCalendarView.m; sourceTree = "<group>"; };
-		040E98C5279D81DF0070B5E6 /* DWDiaryTypingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDiaryTypingView.m; sourceTree = "<group>"; };
-		040E98C6279D81DF0070B5E6 /* DWDiaryDismissKeyboardButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDiaryDismissKeyboardButton.h; sourceTree = "<group>"; };
-		040E98C8279D81DF0070B5E6 /* DWSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWSettingViewController.m; sourceTree = "<group>"; };
-		040E98C9279D81DF0070B5E6 /* DWUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWUserInfo.m; sourceTree = "<group>"; };
-		040E98CA279D81DF0070B5E6 /* DWSettingSwitchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWSettingSwitchTableViewCell.h; sourceTree = "<group>"; };
-		040E98CB279D81DF0070B5E6 /* DWSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWSettingViewController.h; sourceTree = "<group>"; };
-		040E98CC279D81DF0070B5E6 /* DWUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWUserInfo.h; sourceTree = "<group>"; };
-		040E98CD279D81DF0070B5E6 /* DWSettingSwitchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWSettingSwitchTableViewCell.m; sourceTree = "<group>"; };
-		040E98CF279D81DF0070B5E6 /* DWDiaryCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDiaryCalendarView.m; sourceTree = "<group>"; };
-		040E98D0279D81DF0070B5E6 /* DWDiaryCalendarScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDiaryCalendarScrollView.h; sourceTree = "<group>"; };
-		040E98D1279D81DF0070B5E6 /* DWDiaryCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDiaryCalendarView.h; sourceTree = "<group>"; };
-		040E98D2279D81DF0070B5E6 /* DWDiaryCalendarScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDiaryCalendarScrollView.m; sourceTree = "<group>"; };
-		040E98D4279D81DF0070B5E6 /* DWDiaryAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDiaryAlertView.m; sourceTree = "<group>"; };
-		040E98D5279D81DF0070B5E6 /* DWDiaryTipsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDiaryTipsView.h; sourceTree = "<group>"; };
-		040E98D6279D81DF0070B5E6 /* DWDiaryCellContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDiaryCellContentView.m; sourceTree = "<group>"; };
-		040E98D7279D81DF0070B5E6 /* DWDiaryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDiaryTableViewCell.h; sourceTree = "<group>"; };
-		040E98D8279D81DF0070B5E6 /* DWDiaryContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDiaryContentView.h; sourceTree = "<group>"; };
-		040E98D9279D81DF0070B5E6 /* DWDiaryAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDiaryAlertView.h; sourceTree = "<group>"; };
-		040E98DA279D81DF0070B5E6 /* DWDiaryTipsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDiaryTipsView.m; sourceTree = "<group>"; };
-		040E98DB279D81DF0070B5E6 /* DWDiaryContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDiaryContentView.m; sourceTree = "<group>"; };
-		040E98DC279D81DF0070B5E6 /* DWDiaryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDiaryTableViewCell.m; sourceTree = "<group>"; };
-		040E98DD279D81DF0070B5E6 /* DWDiaryCellContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDiaryCellContentView.h; sourceTree = "<group>"; };
-		040E98DF279D81DF0070B5E6 /* DWPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWPasswordViewController.m; sourceTree = "<group>"; };
-		040E98E0279D81DF0070B5E6 /* DWPasswordChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWPasswordChecker.h; sourceTree = "<group>"; };
-		040E98E1279D81DF0070B5E6 /* DWPasswordNumberButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWPasswordNumberButton.m; sourceTree = "<group>"; };
-		040E98E2279D81DF0070B5E6 /* DWPasswordDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWPasswordDisplayView.m; sourceTree = "<group>"; };
-		040E98E3279D81DF0070B5E6 /* DWPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWPasswordViewController.h; sourceTree = "<group>"; };
-		040E98E4279D81DF0070B5E6 /* DWPasswordNumberButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWPasswordNumberButton.h; sourceTree = "<group>"; };
-		040E98E5279D81DF0070B5E6 /* DWPasswordChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWPasswordChecker.m; sourceTree = "<group>"; };
-		040E98E6279D81DF0070B5E6 /* DWPasswordDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWPasswordDisplayView.h; sourceTree = "<group>"; };
-		040E98FB279D83540070B5E6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		040E98B7279C4D0E0070B5E6 /* NfMTDWSettingStoreTMfN.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NfMTDWSettingStoreTMfN.h; sourceTree = "<group>"; };
+		040E98B8279C4D0F0070B5E6 /* NfMTDWSettingStoreTMfN.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NfMTDWSettingStoreTMfN.m; sourceTree = "<group>"; };
+		040E98BB279D81DE0070B5E6 /* ByQuDWDiaryLineImageViewuQyB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByQuDWDiaryLineImageViewuQyB.h; sourceTree = "<group>"; };
+		040E98BC279D81DE0070B5E6 /* sEyYDWDiaryWeatherSelectorViewYyEs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sEyYDWDiaryWeatherSelectorViewYyEs.m; sourceTree = "<group>"; };
+		040E98BD279D81DE0070B5E6 /* lRwUDWDiaryEmotionSelectorViewUwRl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lRwUDWDiaryEmotionSelectorViewUwRl.h; sourceTree = "<group>"; };
+		040E98BE279D81DE0070B5E6 /* ZZDayCanWsRelease.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZDayCanWsRelease.m; sourceTree = "<group>"; };
+		040E98BF279D81DE0070B5E6 /* aaklDWDiaryTypingViewlkaa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aaklDWDiaryTypingViewlkaa.h; sourceTree = "<group>"; };
+		040E98C0279D81DE0070B5E6 /* ERAJDWDiaryTypingCalendarViewJARE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERAJDWDiaryTypingCalendarViewJARE.h; sourceTree = "<group>"; };
+		040E98C1279D81DE0070B5E6 /* sEyYDWDiaryWeatherSelectorViewYyEs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sEyYDWDiaryWeatherSelectorViewYyEs.h; sourceTree = "<group>"; };
+		040E98C2279D81DE0070B5E6 /* ByQuDWDiaryLineImageViewuQyB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByQuDWDiaryLineImageViewuQyB.m; sourceTree = "<group>"; };
+		040E98C3279D81DE0070B5E6 /* lRwUDWDiaryEmotionSelectorViewUwRl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lRwUDWDiaryEmotionSelectorViewUwRl.m; sourceTree = "<group>"; };
+		040E98C4279D81DE0070B5E6 /* ERAJDWDiaryTypingCalendarViewJARE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERAJDWDiaryTypingCalendarViewJARE.m; sourceTree = "<group>"; };
+		040E98C5279D81DF0070B5E6 /* aaklDWDiaryTypingViewlkaa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aaklDWDiaryTypingViewlkaa.m; sourceTree = "<group>"; };
+		040E98C6279D81DF0070B5E6 /* ZZDayCanWsRelease.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZDayCanWsRelease.h; sourceTree = "<group>"; };
+		040E98C8279D81DF0070B5E6 /* XbFSDWSettingViewControllerSFbX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XbFSDWSettingViewControllerSFbX.m; sourceTree = "<group>"; };
+		040E98C9279D81DF0070B5E6 /* lUgwDWUserInfowgUl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lUgwDWUserInfowgUl.m; sourceTree = "<group>"; };
+		040E98CA279D81DF0070B5E6 /* bjTFDWSettingSwitchTableViewCellFTjb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bjTFDWSettingSwitchTableViewCellFTjb.h; sourceTree = "<group>"; };
+		040E98CB279D81DF0070B5E6 /* XbFSDWSettingViewControllerSFbX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XbFSDWSettingViewControllerSFbX.h; sourceTree = "<group>"; };
+		040E98CC279D81DF0070B5E6 /* lUgwDWUserInfowgUl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lUgwDWUserInfowgUl.h; sourceTree = "<group>"; };
+		040E98CD279D81DF0070B5E6 /* bjTFDWSettingSwitchTableViewCellFTjb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bjTFDWSettingSwitchTableViewCellFTjb.m; sourceTree = "<group>"; };
+		040E98CF279D81DF0070B5E6 /* ZZDayObsEyeshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZDayObsEyeshot.m; sourceTree = "<group>"; };
+		040E98D0279D81DF0070B5E6 /* SpDaDWDiaryCalendarScrollViewaDpS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpDaDWDiaryCalendarScrollViewaDpS.h; sourceTree = "<group>"; };
+		040E98D1279D81DF0070B5E6 /* ZZDayObsEyeshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZDayObsEyeshot.h; sourceTree = "<group>"; };
+		040E98D2279D81DF0070B5E6 /* SpDaDWDiaryCalendarScrollViewaDpS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpDaDWDiaryCalendarScrollViewaDpS.m; sourceTree = "<group>"; };
+		040E98D4279D81DF0070B5E6 /* lWThDWDiaryAlertViewhTWl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lWThDWDiaryAlertViewhTWl.m; sourceTree = "<group>"; };
+		040E98D5279D81DF0070B5E6 /* bvnsDWDiaryTipsViewsnvb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bvnsDWDiaryTipsViewsnvb.h; sourceTree = "<group>"; };
+		040E98D6279D81DF0070B5E6 /* edLCDWDiaryCellContentViewCLde.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = edLCDWDiaryCellContentViewCLde.m; sourceTree = "<group>"; };
+		040E98D7279D81DF0070B5E6 /* JiCBDWDiaryTableViewCellBCiJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiCBDWDiaryTableViewCellBCiJ.h; sourceTree = "<group>"; };
+		040E98D8279D81DF0070B5E6 /* UlSsDWDiaryContentViewsSlU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UlSsDWDiaryContentViewsSlU.h; sourceTree = "<group>"; };
+		040E98D9279D81DF0070B5E6 /* lWThDWDiaryAlertViewhTWl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lWThDWDiaryAlertViewhTWl.h; sourceTree = "<group>"; };
+		040E98DA279D81DF0070B5E6 /* bvnsDWDiaryTipsViewsnvb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bvnsDWDiaryTipsViewsnvb.m; sourceTree = "<group>"; };
+		040E98DB279D81DF0070B5E6 /* UlSsDWDiaryContentViewsSlU.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UlSsDWDiaryContentViewsSlU.m; sourceTree = "<group>"; };
+		040E98DC279D81DF0070B5E6 /* JiCBDWDiaryTableViewCellBCiJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiCBDWDiaryTableViewCellBCiJ.m; sourceTree = "<group>"; };
+		040E98DD279D81DF0070B5E6 /* edLCDWDiaryCellContentViewCLde.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = edLCDWDiaryCellContentViewCLde.h; sourceTree = "<group>"; };
+		040E98DF279D81DF0070B5E6 /* ZZWatchwordSceneComptroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZWatchwordSceneComptroller.m; sourceTree = "<group>"; };
+		040E98E0279D81DF0070B5E6 /* YbsODWPasswordCheckerOsbY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YbsODWPasswordCheckerOsbY.h; sourceTree = "<group>"; };
+		040E98E1279D81DF0070B5E6 /* ZZWatchwordFigurePush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZWatchwordFigurePush.m; sourceTree = "<group>"; };
+		040E98E2279D81DF0070B5E6 /* iQdBDWPasswordDisplayViewBdQi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iQdBDWPasswordDisplayViewBdQi.m; sourceTree = "<group>"; };
+		040E98E3279D81DF0070B5E6 /* ZZWatchwordSceneComptroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZWatchwordSceneComptroller.h; sourceTree = "<group>"; };
+		040E98E4279D81DF0070B5E6 /* ZZWatchwordFigurePush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZWatchwordFigurePush.h; sourceTree = "<group>"; };
+		040E98E5279D81DF0070B5E6 /* YbsODWPasswordCheckerOsbY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YbsODWPasswordCheckerOsbY.m; sourceTree = "<group>"; };
+		040E98E6279D81DF0070B5E6 /* iQdBDWPasswordDisplayViewBdQi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iQdBDWPasswordDisplayViewBdQi.h; sourceTree = "<group>"; };
+		040E98FB279D83540070B5E6 /* whHIPrefixHeaderIHhw.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = whHIPrefixHeaderIHhw.pch; sourceTree = "<group>"; };
 		040E98FD279D83600070B5E6 /* Diary_WhatsUrName_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Diary_WhatsUrName_.xcdatamodel; sourceTree = "<group>"; };
-		049E9B662799AFDC00C1C376 /* ZZMemorialDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZMemorialDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		049E9B662799AFDC00C1C376 /* hkIBZZMemorialDayBIkh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hkIBZZMemorialDayBIkh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049E9B692799AFDC00C1C376 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		049E9B6A2799AFDC00C1C376 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		049E9B6F2799AFDC00C1C376 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -111,11 +111,11 @@
 		049E9B782799AFDF00C1C376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		049E9B7A2799AFDF00C1C376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		049E9B7B2799AFDF00C1C376 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		049E9B812799AFE000C1C376 /* ZZMemorialDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZMemorialDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		049E9B852799AFE000C1C376 /* ZZMemorialDayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZMemorialDayTests.m; sourceTree = "<group>"; };
+		049E9B812799AFE000C1C376 /* ZZMemorialDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZZMemorialDayTests.xctest; path = yHPvZZMemorialDayTestsvPHy.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		049E9B852799AFE000C1C376 /* yHPvZZMemorialDayTestsvPHy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yHPvZZMemorialDayTestsvPHy.m; sourceTree = "<group>"; };
 		049E9B872799AFE000C1C376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		049E9B8C2799AFE000C1C376 /* ZZMemorialDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZMemorialDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		049E9B902799AFE000C1C376 /* ZZMemorialDayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZMemorialDayUITests.m; sourceTree = "<group>"; };
+		049E9B8C2799AFE000C1C376 /* ZZMemorialDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZZMemorialDayUITests.xctest; path = LfyrZZMemorialDayUITestsryfL.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		049E9B902799AFE000C1C376 /* LfyrZZMemorialDayUITestsryfL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LfyrZZMemorialDayUITestsryfL.m; sourceTree = "<group>"; };
 		049E9B922799AFE000C1C376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,87 +144,87 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		040E98BA279D81DE0070B5E6 /* Editor */ = {
+		040E98BA279D81DE0070B5E6 /* OgxoEditoroxgO */ = {
 			isa = PBXGroup;
 			children = (
-				040E98BB279D81DE0070B5E6 /* DWDiaryLineImageView.h */,
-				040E98BC279D81DE0070B5E6 /* DWDiaryWeatherSelectorView.m */,
-				040E98BD279D81DE0070B5E6 /* DWDiaryEmotionSelectorView.h */,
-				040E98BE279D81DE0070B5E6 /* DWDiaryDismissKeyboardButton.m */,
-				040E98BF279D81DE0070B5E6 /* DWDiaryTypingView.h */,
-				040E98C0279D81DE0070B5E6 /* DWDiaryTypingCalendarView.h */,
-				040E98C1279D81DE0070B5E6 /* DWDiaryWeatherSelectorView.h */,
-				040E98C2279D81DE0070B5E6 /* DWDiaryLineImageView.m */,
-				040E98C3279D81DE0070B5E6 /* DWDiaryEmotionSelectorView.m */,
-				040E98C4279D81DE0070B5E6 /* DWDiaryTypingCalendarView.m */,
-				040E98C5279D81DF0070B5E6 /* DWDiaryTypingView.m */,
-				040E98C6279D81DF0070B5E6 /* DWDiaryDismissKeyboardButton.h */,
+				040E98BB279D81DE0070B5E6 /* ByQuDWDiaryLineImageViewuQyB.h */,
+				040E98BC279D81DE0070B5E6 /* sEyYDWDiaryWeatherSelectorViewYyEs.m */,
+				040E98BD279D81DE0070B5E6 /* lRwUDWDiaryEmotionSelectorViewUwRl.h */,
+				040E98BE279D81DE0070B5E6 /* ZZDayCanWsRelease.m */,
+				040E98BF279D81DE0070B5E6 /* aaklDWDiaryTypingViewlkaa.h */,
+				040E98C0279D81DE0070B5E6 /* ERAJDWDiaryTypingCalendarViewJARE.h */,
+				040E98C1279D81DE0070B5E6 /* sEyYDWDiaryWeatherSelectorViewYyEs.h */,
+				040E98C2279D81DE0070B5E6 /* ByQuDWDiaryLineImageViewuQyB.m */,
+				040E98C3279D81DE0070B5E6 /* lRwUDWDiaryEmotionSelectorViewUwRl.m */,
+				040E98C4279D81DE0070B5E6 /* ERAJDWDiaryTypingCalendarViewJARE.m */,
+				040E98C5279D81DF0070B5E6 /* aaklDWDiaryTypingViewlkaa.m */,
+				040E98C6279D81DF0070B5E6 /* ZZDayCanWsRelease.h */,
 			);
-			path = Editor;
+			path = OgxoEditoroxgO;
 			sourceTree = "<group>";
 		};
-		040E98C7279D81DF0070B5E6 /* Setting */ = {
+		040E98C7279D81DF0070B5E6 /* xEEXSettingXEEx */ = {
 			isa = PBXGroup;
 			children = (
-				040E98C8279D81DF0070B5E6 /* DWSettingViewController.m */,
-				040E98C9279D81DF0070B5E6 /* DWUserInfo.m */,
-				040E98CA279D81DF0070B5E6 /* DWSettingSwitchTableViewCell.h */,
-				040E98CB279D81DF0070B5E6 /* DWSettingViewController.h */,
-				040E98CC279D81DF0070B5E6 /* DWUserInfo.h */,
-				040E98CD279D81DF0070B5E6 /* DWSettingSwitchTableViewCell.m */,
+				040E98C8279D81DF0070B5E6 /* XbFSDWSettingViewControllerSFbX.m */,
+				040E98C9279D81DF0070B5E6 /* lUgwDWUserInfowgUl.m */,
+				040E98CA279D81DF0070B5E6 /* bjTFDWSettingSwitchTableViewCellFTjb.h */,
+				040E98CB279D81DF0070B5E6 /* XbFSDWSettingViewControllerSFbX.h */,
+				040E98CC279D81DF0070B5E6 /* lUgwDWUserInfowgUl.h */,
+				040E98CD279D81DF0070B5E6 /* bjTFDWSettingSwitchTableViewCellFTjb.m */,
 			);
-			path = Setting;
+			path = xEEXSettingXEEx;
 			sourceTree = "<group>";
 		};
-		040E98CE279D81DF0070B5E6 /* Calendar */ = {
+		040E98CE279D81DF0070B5E6 /* Chinese */ = {
 			isa = PBXGroup;
 			children = (
-				040E98CF279D81DF0070B5E6 /* DWDiaryCalendarView.m */,
-				040E98D0279D81DF0070B5E6 /* DWDiaryCalendarScrollView.h */,
-				040E98D1279D81DF0070B5E6 /* DWDiaryCalendarView.h */,
-				040E98D2279D81DF0070B5E6 /* DWDiaryCalendarScrollView.m */,
+				040E98CF279D81DF0070B5E6 /* ZZDayObsEyeshot.m */,
+				040E98D0279D81DF0070B5E6 /* SpDaDWDiaryCalendarScrollViewaDpS.h */,
+				040E98D1279D81DF0070B5E6 /* ZZDayObsEyeshot.h */,
+				040E98D2279D81DF0070B5E6 /* SpDaDWDiaryCalendarScrollViewaDpS.m */,
 			);
-			path = Calendar;
+			path = Chinese;
 			sourceTree = "<group>";
 		};
-		040E98D3279D81DF0070B5E6 /* List */ = {
+		040E98D3279D81DF0070B5E6 /* EtAoListoAtE */ = {
 			isa = PBXGroup;
 			children = (
-				040E98D4279D81DF0070B5E6 /* DWDiaryAlertView.m */,
-				040E98D5279D81DF0070B5E6 /* DWDiaryTipsView.h */,
-				040E98D6279D81DF0070B5E6 /* DWDiaryCellContentView.m */,
-				040E98D7279D81DF0070B5E6 /* DWDiaryTableViewCell.h */,
-				040E98D8279D81DF0070B5E6 /* DWDiaryContentView.h */,
-				040E98D9279D81DF0070B5E6 /* DWDiaryAlertView.h */,
-				040E98DA279D81DF0070B5E6 /* DWDiaryTipsView.m */,
-				040E98DB279D81DF0070B5E6 /* DWDiaryContentView.m */,
-				040E98DC279D81DF0070B5E6 /* DWDiaryTableViewCell.m */,
-				040E98DD279D81DF0070B5E6 /* DWDiaryCellContentView.h */,
+				040E98D4279D81DF0070B5E6 /* lWThDWDiaryAlertViewhTWl.m */,
+				040E98D5279D81DF0070B5E6 /* bvnsDWDiaryTipsViewsnvb.h */,
+				040E98D6279D81DF0070B5E6 /* edLCDWDiaryCellContentViewCLde.m */,
+				040E98D7279D81DF0070B5E6 /* JiCBDWDiaryTableViewCellBCiJ.h */,
+				040E98D8279D81DF0070B5E6 /* UlSsDWDiaryContentViewsSlU.h */,
+				040E98D9279D81DF0070B5E6 /* lWThDWDiaryAlertViewhTWl.h */,
+				040E98DA279D81DF0070B5E6 /* bvnsDWDiaryTipsViewsnvb.m */,
+				040E98DB279D81DF0070B5E6 /* UlSsDWDiaryContentViewsSlU.m */,
+				040E98DC279D81DF0070B5E6 /* JiCBDWDiaryTableViewCellBCiJ.m */,
+				040E98DD279D81DF0070B5E6 /* edLCDWDiaryCellContentViewCLde.h */,
 			);
-			path = List;
+			path = EtAoListoAtE;
 			sourceTree = "<group>";
 		};
-		040E98DE279D81DF0070B5E6 /* Safe */ = {
+		040E98DE279D81DF0070B5E6 /* Dependable */ = {
 			isa = PBXGroup;
 			children = (
-				040E98DF279D81DF0070B5E6 /* DWPasswordViewController.m */,
-				040E98E0279D81DF0070B5E6 /* DWPasswordChecker.h */,
-				040E98E1279D81DF0070B5E6 /* DWPasswordNumberButton.m */,
-				040E98E2279D81DF0070B5E6 /* DWPasswordDisplayView.m */,
-				040E98E3279D81DF0070B5E6 /* DWPasswordViewController.h */,
-				040E98E4279D81DF0070B5E6 /* DWPasswordNumberButton.h */,
-				040E98E5279D81DF0070B5E6 /* DWPasswordChecker.m */,
-				040E98E6279D81DF0070B5E6 /* DWPasswordDisplayView.h */,
+				040E98DF279D81DF0070B5E6 /* ZZWatchwordSceneComptroller.m */,
+				040E98E0279D81DF0070B5E6 /* YbsODWPasswordCheckerOsbY.h */,
+				040E98E1279D81DF0070B5E6 /* ZZWatchwordFigurePush.m */,
+				040E98E2279D81DF0070B5E6 /* iQdBDWPasswordDisplayViewBdQi.m */,
+				040E98E3279D81DF0070B5E6 /* ZZWatchwordSceneComptroller.h */,
+				040E98E4279D81DF0070B5E6 /* ZZWatchwordFigurePush.h */,
+				040E98E5279D81DF0070B5E6 /* YbsODWPasswordCheckerOsbY.m */,
+				040E98E6279D81DF0070B5E6 /* iQdBDWPasswordDisplayViewBdQi.h */,
 			);
-			path = Safe;
+			path = Dependable;
 			sourceTree = "<group>";
 		};
 		049E9B5D2799AFDC00C1C376 = {
 			isa = PBXGroup;
 			children = (
-				049E9B682799AFDC00C1C376 /* ZZMemorialDay */,
-				049E9B842799AFE000C1C376 /* ZZMemorialDayTests */,
-				049E9B8F2799AFE000C1C376 /* ZZMemorialDayUITests */,
+				049E9B682799AFDC00C1C376 /* hkIBZZMemorialDayBIkh */,
+				049E9B842799AFE000C1C376 /* yHPvZZMemorialDayTestsvPHy */,
+				049E9B8F2799AFE000C1C376 /* LfyrZZMemorialDayUITestsryfL */,
 				049E9B672799AFDC00C1C376 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -232,14 +232,14 @@
 		049E9B672799AFDC00C1C376 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				049E9B662799AFDC00C1C376 /* ZZMemorialDay.app */,
+				049E9B662799AFDC00C1C376 /* hkIBZZMemorialDayBIkh.app */,
 				049E9B812799AFE000C1C376 /* ZZMemorialDayTests.xctest */,
 				049E9B8C2799AFE000C1C376 /* ZZMemorialDayUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		049E9B682799AFDC00C1C376 /* ZZMemorialDay */ = {
+		049E9B682799AFDC00C1C376 /* hkIBZZMemorialDayBIkh */ = {
 			isa = PBXGroup;
 			children = (
 				040E98FC279D83600070B5E6 /* Diary_WhatsUrName_.xcdatamodeld */,
@@ -247,47 +247,47 @@
 				049E9B6A2799AFDC00C1C376 /* AppDelegate.m */,
 				049E9B6F2799AFDC00C1C376 /* ViewController.h */,
 				049E9B702799AFDC00C1C376 /* ViewController.m */,
-				040E98B7279C4D0E0070B5E6 /* DWSettingStore.h */,
-				040E98B8279C4D0F0070B5E6 /* DWSettingStore.m */,
-				040E98CE279D81DF0070B5E6 /* Calendar */,
-				040E98BA279D81DE0070B5E6 /* Editor */,
-				040E98D3279D81DF0070B5E6 /* List */,
-				040E98DE279D81DF0070B5E6 /* Safe */,
-				040E98C7279D81DF0070B5E6 /* Setting */,
+				040E98B7279C4D0E0070B5E6 /* NfMTDWSettingStoreTMfN.h */,
+				040E98B8279C4D0F0070B5E6 /* NfMTDWSettingStoreTMfN.m */,
+				040E98CE279D81DF0070B5E6 /* Chinese */,
+				040E98BA279D81DE0070B5E6 /* OgxoEditoroxgO */,
+				040E98D3279D81DF0070B5E6 /* EtAoListoAtE */,
+				040E98DE279D81DF0070B5E6 /* Dependable */,
+				040E98C7279D81DF0070B5E6 /* xEEXSettingXEEx */,
 				049E9B722799AFDC00C1C376 /* Main.storyboard */,
 				049E9B752799AFDF00C1C376 /* Assets.xcassets */,
 				049E9B772799AFDF00C1C376 /* LaunchScreen.storyboard */,
 				049E9B7A2799AFDF00C1C376 /* Info.plist */,
 				049E9B7B2799AFDF00C1C376 /* main.m */,
-				040E98FB279D83540070B5E6 /* PrefixHeader.pch */,
+				040E98FB279D83540070B5E6 /* whHIPrefixHeaderIHhw.pch */,
 			);
-			path = ZZMemorialDay;
+			path = hkIBZZMemorialDayBIkh;
 			sourceTree = "<group>";
 		};
-		049E9B842799AFE000C1C376 /* ZZMemorialDayTests */ = {
+		049E9B842799AFE000C1C376 /* yHPvZZMemorialDayTestsvPHy */ = {
 			isa = PBXGroup;
 			children = (
-				049E9B852799AFE000C1C376 /* ZZMemorialDayTests.m */,
+				049E9B852799AFE000C1C376 /* yHPvZZMemorialDayTestsvPHy.m */,
 				049E9B872799AFE000C1C376 /* Info.plist */,
 			);
-			path = ZZMemorialDayTests;
+			path = yHPvZZMemorialDayTestsvPHy;
 			sourceTree = "<group>";
 		};
-		049E9B8F2799AFE000C1C376 /* ZZMemorialDayUITests */ = {
+		049E9B8F2799AFE000C1C376 /* LfyrZZMemorialDayUITestsryfL */ = {
 			isa = PBXGroup;
 			children = (
-				049E9B902799AFE000C1C376 /* ZZMemorialDayUITests.m */,
+				049E9B902799AFE000C1C376 /* LfyrZZMemorialDayUITestsryfL.m */,
 				049E9B922799AFE000C1C376 /* Info.plist */,
 			);
-			path = ZZMemorialDayUITests;
+			path = LfyrZZMemorialDayUITestsryfL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		049E9B652799AFDC00C1C376 /* ZZMemorialDay */ = {
+		049E9B652799AFDC00C1C376 /* hkIBZZMemorialDayBIkh */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 049E9B952799AFE000C1C376 /* Build configuration list for PBXNativeTarget "ZZMemorialDay" */;
+			buildConfigurationList = 049E9B952799AFE000C1C376 /* Build configuration list for PBXNativeTarget "hkIBZZMemorialDayBIkh" */;
 			buildPhases = (
 				049E9B622799AFDC00C1C376 /* Sources */,
 				049E9B632799AFDC00C1C376 /* Frameworks */,
@@ -297,14 +297,14 @@
 			);
 			dependencies = (
 			);
-			name = ZZMemorialDay;
-			productName = ZZMemorialDay;
-			productReference = 049E9B662799AFDC00C1C376 /* ZZMemorialDay.app */;
+			name = hkIBZZMemorialDayBIkh;
+			productName = hkIBZZMemorialDayBIkh;
+			productReference = 049E9B662799AFDC00C1C376 /* hkIBZZMemorialDayBIkh.app */;
 			productType = "com.apple.product-type.application";
 		};
-		049E9B802799AFE000C1C376 /* ZZMemorialDayTests */ = {
+		049E9B802799AFE000C1C376 /* yHPvZZMemorialDayTestsvPHy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 049E9B982799AFE000C1C376 /* Build configuration list for PBXNativeTarget "ZZMemorialDayTests" */;
+			buildConfigurationList = 049E9B982799AFE000C1C376 /* Build configuration list for PBXNativeTarget "yHPvZZMemorialDayTestsvPHy" */;
 			buildPhases = (
 				049E9B7D2799AFE000C1C376 /* Sources */,
 				049E9B7E2799AFE000C1C376 /* Frameworks */,
@@ -315,14 +315,14 @@
 			dependencies = (
 				049E9B832799AFE000C1C376 /* PBXTargetDependency */,
 			);
-			name = ZZMemorialDayTests;
-			productName = ZZMemorialDayTests;
+			name = yHPvZZMemorialDayTestsvPHy;
+			productName = yHPvZZMemorialDayTestsvPHy;
 			productReference = 049E9B812799AFE000C1C376 /* ZZMemorialDayTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		049E9B8B2799AFE000C1C376 /* ZZMemorialDayUITests */ = {
+		049E9B8B2799AFE000C1C376 /* LfyrZZMemorialDayUITestsryfL */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 049E9B9B2799AFE000C1C376 /* Build configuration list for PBXNativeTarget "ZZMemorialDayUITests" */;
+			buildConfigurationList = 049E9B9B2799AFE000C1C376 /* Build configuration list for PBXNativeTarget "LfyrZZMemorialDayUITestsryfL" */;
 			buildPhases = (
 				049E9B882799AFE000C1C376 /* Sources */,
 				049E9B892799AFE000C1C376 /* Frameworks */,
@@ -333,8 +333,8 @@
 			dependencies = (
 				049E9B8E2799AFE000C1C376 /* PBXTargetDependency */,
 			);
-			name = ZZMemorialDayUITests;
-			productName = ZZMemorialDayUITests;
+			name = LfyrZZMemorialDayUITestsryfL;
+			productName = LfyrZZMemorialDayUITestsryfL;
 			productReference = 049E9B8C2799AFE000C1C376 /* ZZMemorialDayUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
@@ -372,9 +372,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				049E9B652799AFDC00C1C376 /* ZZMemorialDay */,
-				049E9B802799AFE000C1C376 /* ZZMemorialDayTests */,
-				049E9B8B2799AFE000C1C376 /* ZZMemorialDayUITests */,
+				049E9B652799AFDC00C1C376 /* hkIBZZMemorialDayBIkh */,
+				049E9B802799AFE000C1C376 /* yHPvZZMemorialDayTestsvPHy */,
+				049E9B8B2799AFE000C1C376 /* LfyrZZMemorialDayUITestsryfL */,
 			);
 		};
 /* End PBXProject section */
@@ -411,31 +411,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040E98F6279D81DF0070B5E6 /* DWDiaryTableViewCell.m in Sources */,
-				040E98FA279D81DF0070B5E6 /* DWPasswordChecker.m in Sources */,
-				040E98E7279D81DF0070B5E6 /* DWDiaryWeatherSelectorView.m in Sources */,
+				040E98F6279D81DF0070B5E6 /* JiCBDWDiaryTableViewCellBCiJ.m in Sources */,
+				040E98FA279D81DF0070B5E6 /* YbsODWPasswordCheckerOsbY.m in Sources */,
+				040E98E7279D81DF0070B5E6 /* sEyYDWDiaryWeatherSelectorViewYyEs.m in Sources */,
 				049E9B712799AFDC00C1C376 /* ViewController.m in Sources */,
-				040E98ED279D81DF0070B5E6 /* DWSettingViewController.m in Sources */,
-				040E98F1279D81DF0070B5E6 /* DWDiaryCalendarScrollView.m in Sources */,
-				040E98F2279D81DF0070B5E6 /* DWDiaryAlertView.m in Sources */,
-				040E98EA279D81DF0070B5E6 /* DWDiaryEmotionSelectorView.m in Sources */,
-				040E98B9279C4D0F0070B5E6 /* DWSettingStore.m in Sources */,
-				040E98F0279D81DF0070B5E6 /* DWDiaryCalendarView.m in Sources */,
-				040E98EE279D81DF0070B5E6 /* DWUserInfo.m in Sources */,
-				040E98F8279D81DF0070B5E6 /* DWPasswordNumberButton.m in Sources */,
-				040E98E9279D81DF0070B5E6 /* DWDiaryLineImageView.m in Sources */,
+				040E98ED279D81DF0070B5E6 /* XbFSDWSettingViewControllerSFbX.m in Sources */,
+				040E98F1279D81DF0070B5E6 /* SpDaDWDiaryCalendarScrollViewaDpS.m in Sources */,
+				040E98F2279D81DF0070B5E6 /* lWThDWDiaryAlertViewhTWl.m in Sources */,
+				040E98EA279D81DF0070B5E6 /* lRwUDWDiaryEmotionSelectorViewUwRl.m in Sources */,
+				040E98B9279C4D0F0070B5E6 /* NfMTDWSettingStoreTMfN.m in Sources */,
+				040E98F0279D81DF0070B5E6 /* ZZDayObsEyeshot.m in Sources */,
+				040E98EE279D81DF0070B5E6 /* lUgwDWUserInfowgUl.m in Sources */,
+				040E98F8279D81DF0070B5E6 /* ZZWatchwordFigurePush.m in Sources */,
+				040E98E9279D81DF0070B5E6 /* ByQuDWDiaryLineImageViewuQyB.m in Sources */,
 				049E9B6B2799AFDC00C1C376 /* AppDelegate.m in Sources */,
-				040E98EF279D81DF0070B5E6 /* DWSettingSwitchTableViewCell.m in Sources */,
-				040E98E8279D81DF0070B5E6 /* DWDiaryDismissKeyboardButton.m in Sources */,
-				040E98F5279D81DF0070B5E6 /* DWDiaryContentView.m in Sources */,
+				040E98EF279D81DF0070B5E6 /* bjTFDWSettingSwitchTableViewCellFTjb.m in Sources */,
+				040E98E8279D81DF0070B5E6 /* ZZDayCanWsRelease.m in Sources */,
+				040E98F5279D81DF0070B5E6 /* UlSsDWDiaryContentViewsSlU.m in Sources */,
 				040E98FE279D83610070B5E6 /* Diary_WhatsUrName_.xcdatamodeld in Sources */,
-				040E98F4279D81DF0070B5E6 /* DWDiaryTipsView.m in Sources */,
+				040E98F4279D81DF0070B5E6 /* bvnsDWDiaryTipsViewsnvb.m in Sources */,
 				049E9B7C2799AFDF00C1C376 /* main.m in Sources */,
-				040E98EC279D81DF0070B5E6 /* DWDiaryTypingView.m in Sources */,
-				040E98F7279D81DF0070B5E6 /* DWPasswordViewController.m in Sources */,
-				040E98F3279D81DF0070B5E6 /* DWDiaryCellContentView.m in Sources */,
-				040E98F9279D81DF0070B5E6 /* DWPasswordDisplayView.m in Sources */,
-				040E98EB279D81DF0070B5E6 /* DWDiaryTypingCalendarView.m in Sources */,
+				040E98EC279D81DF0070B5E6 /* aaklDWDiaryTypingViewlkaa.m in Sources */,
+				040E98F7279D81DF0070B5E6 /* ZZWatchwordSceneComptroller.m in Sources */,
+				040E98F3279D81DF0070B5E6 /* edLCDWDiaryCellContentViewCLde.m in Sources */,
+				040E98F9279D81DF0070B5E6 /* iQdBDWPasswordDisplayViewBdQi.m in Sources */,
+				040E98EB279D81DF0070B5E6 /* ERAJDWDiaryTypingCalendarViewJARE.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,7 +443,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				049E9B862799AFE000C1C376 /* ZZMemorialDayTests.m in Sources */,
+				049E9B862799AFE000C1C376 /* yHPvZZMemorialDayTestsvPHy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,7 +451,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				049E9B912799AFE000C1C376 /* ZZMemorialDayUITests.m in Sources */,
+				049E9B912799AFE000C1C376 /* LfyrZZMemorialDayUITestsryfL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,12 +460,12 @@
 /* Begin PBXTargetDependency section */
 		049E9B832799AFE000C1C376 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 049E9B652799AFDC00C1C376 /* ZZMemorialDay */;
+			target = 049E9B652799AFDC00C1C376 /* hkIBZZMemorialDayBIkh */;
 			targetProxy = 049E9B822799AFE000C1C376 /* PBXContainerItemProxy */;
 		};
 		049E9B8E2799AFE000C1C376 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 049E9B652799AFDC00C1C376 /* ZZMemorialDay */;
+			target = 049E9B652799AFDC00C1C376 /* hkIBZZMemorialDayBIkh */;
 			targetProxy = 049E9B8D2799AFE000C1C376 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -608,14 +608,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 2DD69CFJXS;
-				INFOPLIST_FILE = ZZMemorialDay/Info.plist;
+				INFOPLIST_FILE = hkIBZZMemorialDayBIkh/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.memorialDay.www.ZZMemorial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.memorialDay.www.ZZMemor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -627,14 +628,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 2DD69CFJXS;
-				INFOPLIST_FILE = ZZMemorialDay/Info.plist;
+				INFOPLIST_FILE = hkIBZZMemorialDayBIkh/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.memorialDay.www.ZZMemorial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.memorialDay.www.ZZMemor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -646,7 +648,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GT792YJWB5;
-				INFOPLIST_FILE = ZZMemorialDayTests/Info.plist;
+				INFOPLIST_FILE = yHPvZZMemorialDayTestsvPHy/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -666,7 +668,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GT792YJWB5;
-				INFOPLIST_FILE = ZZMemorialDayTests/Info.plist;
+				INFOPLIST_FILE = yHPvZZMemorialDayTestsvPHy/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -685,7 +687,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GT792YJWB5;
-				INFOPLIST_FILE = ZZMemorialDayUITests/Info.plist;
+				INFOPLIST_FILE = LfyrZZMemorialDayUITestsryfL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -694,7 +696,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.memorialDay.www.ZZMemorialDayUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ZZMemorialDay;
+				TEST_TARGET_NAME = hkIBZZMemorialDayBIkh;
 			};
 			name = Debug;
 		};
@@ -703,7 +705,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GT792YJWB5;
-				INFOPLIST_FILE = ZZMemorialDayUITests/Info.plist;
+				INFOPLIST_FILE = LfyrZZMemorialDayUITestsryfL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -712,7 +714,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.memorialDay.www.ZZMemorialDayUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ZZMemorialDay;
+				TEST_TARGET_NAME = hkIBZZMemorialDayBIkh;
 			};
 			name = Release;
 		};
@@ -728,7 +730,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		049E9B952799AFE000C1C376 /* Build configuration list for PBXNativeTarget "ZZMemorialDay" */ = {
+		049E9B952799AFE000C1C376 /* Build configuration list for PBXNativeTarget "hkIBZZMemorialDayBIkh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				049E9B962799AFE000C1C376 /* Debug */,
@@ -737,7 +739,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		049E9B982799AFE000C1C376 /* Build configuration list for PBXNativeTarget "ZZMemorialDayTests" */ = {
+		049E9B982799AFE000C1C376 /* Build configuration list for PBXNativeTarget "yHPvZZMemorialDayTestsvPHy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				049E9B992799AFE000C1C376 /* Debug */,
@@ -746,7 +748,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		049E9B9B2799AFE000C1C376 /* Build configuration list for PBXNativeTarget "ZZMemorialDayUITests" */ = {
+		049E9B9B2799AFE000C1C376 /* Build configuration list for PBXNativeTarget "LfyrZZMemorialDayUITestsryfL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				049E9B9C2799AFE000C1C376 /* Debug */,
