@@ -32,7 +32,8 @@
 		042571BF280A61410035977E /* DropDownListPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 042571BE280A61410035977E /* DropDownListPicker.m */; };
 		042571C3280D0C750035977E /* XDSDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 042571C2280D0C740035977E /* XDSDropDownMenu.m */; };
 		042571C6280D17820035977E /* UIButton+admEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 042571C5280D17820035977E /* UIButton+admEdgeInsets.m */; };
-		0435BE732818D66D00A57998 /* ZZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435BE722818D66D00A57998 /* ZZViewController.m */; };
+		0435BE772818F52000A57998 /* ZZCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435BE752818F52000A57998 /* ZZCalculatorViewController.m */; };
+		0435BE782818F52000A57998 /* ZZCalculatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0435BE762818F52000A57998 /* ZZCalculatorViewController.xib */; };
 		0450506F2815095E0027A7EA /* MNPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0450506A2815095E0027A7EA /* MNPickerView.m */; };
 		045050702815095E0027A7EA /* MNDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0450506D2815095E0027A7EA /* MNDatePickerView.m */; };
 		0478835F2817FFCF0063DAF8 /* QTDateCalculationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0478835D2817FFCE0063DAF8 /* QTDateCalculationHelper.m */; };
@@ -118,8 +119,9 @@
 		042571C2280D0C740035977E /* XDSDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDSDropDownMenu.m; sourceTree = "<group>"; };
 		042571C4280D17810035977E /* UIButton+admEdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+admEdgeInsets.h"; sourceTree = "<group>"; };
 		042571C5280D17820035977E /* UIButton+admEdgeInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+admEdgeInsets.m"; sourceTree = "<group>"; };
-		0435BE712818D66D00A57998 /* ZZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZViewController.h; sourceTree = "<group>"; };
-		0435BE722818D66D00A57998 /* ZZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZViewController.m; sourceTree = "<group>"; };
+		0435BE742818F52000A57998 /* ZZCalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZCalculatorViewController.h; sourceTree = "<group>"; };
+		0435BE752818F52000A57998 /* ZZCalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZCalculatorViewController.m; sourceTree = "<group>"; };
+		0435BE762818F52000A57998 /* ZZCalculatorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZZCalculatorViewController.xib; sourceTree = "<group>"; };
 		0450506A2815095E0027A7EA /* MNPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNPickerView.m; sourceTree = "<group>"; };
 		0450506B2815095E0027A7EA /* MNDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNDatePickerView.h; sourceTree = "<group>"; };
 		0450506C2815095E0027A7EA /* MNPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNPickerView.h; sourceTree = "<group>"; };
@@ -287,8 +289,9 @@
 		0435BE702818D65200A57998 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				0435BE712818D66D00A57998 /* ZZViewController.h */,
-				0435BE722818D66D00A57998 /* ZZViewController.m */,
+				0435BE742818F52000A57998 /* ZZCalculatorViewController.h */,
+				0435BE752818F52000A57998 /* ZZCalculatorViewController.m */,
+				0435BE762818F52000A57998 /* ZZCalculatorViewController.xib */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -511,6 +514,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0435BE782818F52000A57998 /* ZZCalculatorViewController.xib in Resources */,
 				049E9B792799AFDF00C1C376 /* LaunchScreen.storyboard in Resources */,
 				049E9B762799AFDF00C1C376 /* Assets.xcassets in Resources */,
 				049E9B742799AFDC00C1C376 /* Main.storyboard in Resources */,
@@ -649,7 +653,6 @@
 				049E9B712799AFDC00C1C376 /* ViewController.m in Sources */,
 				0478835F2817FFCF0063DAF8 /* QTDateCalculationHelper.m in Sources */,
 				040E98ED279D81DF0070B5E6 /* DWSettingViewController.m in Sources */,
-				0435BE732818D66D00A57998 /* ZZViewController.m in Sources */,
 				040E98F1279D81DF0070B5E6 /* DWDiaryCalendarScrollView.m in Sources */,
 				040E98F2279D81DF0070B5E6 /* DWDiaryAlertView.m in Sources */,
 				040E98EA279D81DF0070B5E6 /* DWDiaryEmotionSelectorView.m in Sources */,
@@ -661,6 +664,7 @@
 				040E98E9279D81DF0070B5E6 /* DWDiaryLineImageView.m in Sources */,
 				049E9B6B2799AFDC00C1C376 /* AppDelegate.m in Sources */,
 				0450506F2815095E0027A7EA /* MNPickerView.m in Sources */,
+				0435BE772818F52000A57998 /* ZZCalculatorViewController.m in Sources */,
 				040E98EF279D81DF0070B5E6 /* DWSettingSwitchTableViewCell.m in Sources */,
 				040E98E8279D81DF0070B5E6 /* DWDiaryDismissKeyboardButton.m in Sources */,
 				040E98F5279D81DF0070B5E6 /* DWDiaryContentView.m in Sources */,

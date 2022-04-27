@@ -1,5 +1,5 @@
 //
-//  ZZViewController.h
+//  ZZCalculatorViewController.h
 //  ZZMemorialDay
 //
 //  Created by mac on 2022/4/27.
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ZZViewController : UIViewController
+@interface ZZCalculatorViewController : UIViewController
 
 @end
 
