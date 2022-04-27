@@ -34,6 +34,7 @@
 		042571C6280D17820035977E /* UIButton+admEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 042571C5280D17820035977E /* UIButton+admEdgeInsets.m */; };
 		0435BE772818F52000A57998 /* ZZCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435BE752818F52000A57998 /* ZZCalculatorViewController.m */; };
 		0435BE782818F52000A57998 /* ZZCalculatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0435BE762818F52000A57998 /* ZZCalculatorViewController.xib */; };
+		0435BE7C28193D7500A57998 /* ZZChooseImageVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435BE7B28193D7500A57998 /* ZZChooseImageVController.m */; };
 		0450506F2815095E0027A7EA /* MNPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0450506A2815095E0027A7EA /* MNPickerView.m */; };
 		045050702815095E0027A7EA /* MNDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0450506D2815095E0027A7EA /* MNDatePickerView.m */; };
 		0478835F2817FFCF0063DAF8 /* QTDateCalculationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0478835D2817FFCE0063DAF8 /* QTDateCalculationHelper.m */; };
@@ -122,6 +123,8 @@
 		0435BE742818F52000A57998 /* ZZCalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZCalculatorViewController.h; sourceTree = "<group>"; };
 		0435BE752818F52000A57998 /* ZZCalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZCalculatorViewController.m; sourceTree = "<group>"; };
 		0435BE762818F52000A57998 /* ZZCalculatorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZZCalculatorViewController.xib; sourceTree = "<group>"; };
+		0435BE7A28193D7500A57998 /* ZZChooseImageVController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZChooseImageVController.h; sourceTree = "<group>"; };
+		0435BE7B28193D7500A57998 /* ZZChooseImageVController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZChooseImageVController.m; sourceTree = "<group>"; };
 		0450506A2815095E0027A7EA /* MNPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNPickerView.m; sourceTree = "<group>"; };
 		0450506B2815095E0027A7EA /* MNDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNDatePickerView.h; sourceTree = "<group>"; };
 		0450506C2815095E0027A7EA /* MNPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNPickerView.h; sourceTree = "<group>"; };
@@ -296,6 +299,16 @@
 			path = Calculator;
 			sourceTree = "<group>";
 		};
+		0435BE7928193D5400A57998 /* ZZChooseImage */ = {
+			isa = PBXGroup;
+			children = (
+				0435BE7A28193D7500A57998 /* ZZChooseImageVController.h */,
+				0435BE7B28193D7500A57998 /* ZZChooseImageVController.m */,
+			);
+			name = ZZChooseImage;
+			path = ZZMemorialDay/ZZChooseImage;
+			sourceTree = SOURCE_ROOT;
+		};
 		045050692815095E0027A7EA /* MNPickerView */ = {
 			isa = PBXGroup;
 			children = (
@@ -355,6 +368,7 @@
 				040E98DE279D81DF0070B5E6 /* Safe */,
 				040E98C7279D81DF0070B5E6 /* Setting */,
 				0435BE702818D65200A57998 /* Calculator */,
+				0435BE7928193D5400A57998 /* ZZChooseImage */,
 				042571BC280A61080035977E /* tool */,
 				049E9B722799AFDC00C1C376 /* Main.storyboard */,
 				049E9B752799AFDF00C1C376 /* Assets.xcassets */,
@@ -664,6 +678,7 @@
 				040E98E9279D81DF0070B5E6 /* DWDiaryLineImageView.m in Sources */,
 				049E9B6B2799AFDC00C1C376 /* AppDelegate.m in Sources */,
 				0450506F2815095E0027A7EA /* MNPickerView.m in Sources */,
+				0435BE7C28193D7500A57998 /* ZZChooseImageVController.m in Sources */,
 				0435BE772818F52000A57998 /* ZZCalculatorViewController.m in Sources */,
 				040E98EF279D81DF0070B5E6 /* DWSettingSwitchTableViewCell.m in Sources */,
 				040E98E8279D81DF0070B5E6 /* DWDiaryDismissKeyboardButton.m in Sources */,

@@ -15,6 +15,7 @@
 #import "PrefixHeader.pch"
 #import <TZImagePickerController.h>
 #import "ZZCalculatorViewController.h"
+#import "ZZChooseImageVController.h"
 
 @interface DWSettingViewController () <UITableViewDelegate, UITableViewDataSource, DWSettingSwitchCellDelegate, DWPasswordViewControllerDelegate>
 
@@ -95,7 +96,7 @@
         imagePicker.allowCrop = YES;
         imagePicker.cropRect = CGRectMake(0, DWDiaryNavigationBarHeight, DWScreenWidth, DWScreenHeight - DWDiaryNavigationBarHeight);
         imagePicker.didFinishPickingPhotosHandle = ^(NSArray<UIImage *> *photos, NSArray *assets, BOOL isSelectOriginalPhoto) {
-
+            [[NSUserDefaults standardUserDefaults] setObject:@"1" forKey:@"LocImage"];
             [[SDImageCache sharedImageCache] storeImage:photos[0] forKey: @"/Documents/pic.png" completion:^{
                     
                 }];
@@ -105,7 +106,11 @@
                     
         }];
     }else if (indexPath.row==2){
-        
+        ZZChooseImageVController *pushVC = [[ZZChooseImageVController alloc] init];
+        pushVC.modalPresentationStyle = UIModalPresentationOverCurrentContext;
+        [self presentViewController:pushVC animated:YES completion:^{
+                    
+        }];
     }else if (indexPath.row==3){
         ZZCalculatorViewController *pushVC = [[ZZCalculatorViewController alloc] init];
         pushVC.modalPresentationStyle = UIModalPresentationOverCurrentContext;

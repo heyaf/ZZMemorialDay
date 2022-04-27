@@ -39,7 +39,7 @@
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
-        self.backgroundColor = [UIColor whiteColor];
+        self.backgroundColor = [UIColor colorWithRed:255/255.0 green:255/255.0 blue:255/255.0 alpha:0.3];
         self.layer.cornerRadius = 15;
         self.layer.masksToBounds = YES;
         
@@ -180,8 +180,9 @@
 - (UITextView *)tVDetail {
     if (!_tVDetail) {
         _tVDetail = [[UITextView alloc] initWithFrame:CGRectMake(10, CGRectGetMaxY(self.dateView.frame), self.frame.size.width - 20, DWDetailTextViewHeight)];
-        _tVDetail.textColor = DWDiaryThemeBlueColor;
-        _tVDetail.font = [UIFont systemFontOfSize:17];
+        _tVDetail.textColor = [UIColor whiteColor];
+        _tVDetail.font = kMediunFont(17);
+        _tVDetail.backgroundColor = [UIColor clearColor];
         _tVDetail.editable = NO;
     }
     return _tVDetail;
