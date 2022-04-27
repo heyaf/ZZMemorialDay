@@ -14,6 +14,10 @@ NS_ASSUME_NONNULL_BEGIN
 +(NSString*)getChineseCalendarWithDate:(NSDate *)date;
 //距今多少天
 + (NSInteger)distanceTodayDayCount:(NSString *)inputDate;
+//获取当前时间
++ (NSString *)timeNowDate;
+//获取当前时间戳
++ (NSTimeInterval)nowintTimestamp;
 @end
 
 NS_ASSUME_NONNULL_END

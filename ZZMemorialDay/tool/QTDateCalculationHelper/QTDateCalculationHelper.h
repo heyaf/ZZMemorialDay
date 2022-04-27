@@ -86,7 +86,11 @@ NS_ASSUME_NONNULL_BEGIN
                                 day:(NSInteger)day
                              format:(NSString *)formatString;
 
-
++ (NSString *)getTimeWithTimeString1:(NSString *)timeString
+                               year:(NSInteger)year
+                              month:(NSInteger)month
+                                day:(NSInteger)day
+                              format:(NSString *)formatString;
 /// =============== 返回n时,n分,n秒后的时间 ===============
 /// @param timeString 开始计算的日期
 /// @param hour 小时数

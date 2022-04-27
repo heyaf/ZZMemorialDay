@@ -66,4 +66,26 @@
     NSLog(@"year=%zd  month=%zd  day=%zd hour=%zd  minute=%zd",compas.year,compas.month,compas.day,compas.hour,compas.minute);
     return compas.day;
 }
+
+//获取当前时间
+
++ (NSString *)timeNowDate {
+
+    // 1.获得当前时间的年月日
+    NSDate *nowDate = [NSDate date];
+//    NSDateComponents *nowCmps = [calendar components:unit fromDate:nowDate];
+    // 2.获得指定日期的年月日
+  
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:@"yyyy-MM-dd"];
+    NSString *time = [dateFormatter stringFromDate:nowDate];
+
+    return time;
+}
+//获取当前时间戳
++ (NSTimeInterval)nowintTimestamp{
+    NSDate *date = [NSDate dateWithTimeIntervalSinceNow:0];
+    NSTimeInterval time = [date timeIntervalSince1970];
+    return time;
+}
 @end

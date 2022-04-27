@@ -1,4 +1,16 @@
 PODS:
+  - BRPickerView (2.7.6):
+    - BRPickerView/AddressPickerView (= 2.7.6)
+    - BRPickerView/Base (= 2.7.6)
+    - BRPickerView/DatePickerView (= 2.7.6)
+    - BRPickerView/StringPickerView (= 2.7.6)
+  - BRPickerView/AddressPickerView (2.7.6):
+    - BRPickerView/Base
+  - BRPickerView/Base (2.7.6)
+  - BRPickerView/DatePickerView (2.7.6):
+    - BRPickerView/Base
+  - BRPickerView/StringPickerView (2.7.6):
+    - BRPickerView/Base
   - HWDownSelectedView (1.0.1)
   - SDWebImage (5.12.1):
     - SDWebImage/Core (= 5.12.1)
@@ -6,21 +18,24 @@ PODS:
   - TZImagePickerController (3.6.7)
 
 DEPENDENCIES:
+  - BRPickerView
   - HWDownSelectedView (~> 1.0.1)
   - SDWebImage
   - TZImagePickerController
 
 SPEC REPOS:
   trunk:
+    - BRPickerView
     - HWDownSelectedView
     - SDWebImage
     - TZImagePickerController
 
 SPEC CHECKSUMS:
+  BRPickerView: 2a1620caf218e37a3aca9626732719a419928b15
   HWDownSelectedView: 950a2d2e5b0e5d9538b33873c3badf642e461b86
   SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
   TZImagePickerController: 679ae9fa11e189a9a81291ae96f0a4463be8edc1
 
-PODFILE CHECKSUM: 29a4f409d701a083598ab9b87896ec3855040efa
+PODFILE CHECKSUM: 54eb73c196dcf61e51b916a209a7b3a7b467028d
 
 COCOAPODS: 1.11.2

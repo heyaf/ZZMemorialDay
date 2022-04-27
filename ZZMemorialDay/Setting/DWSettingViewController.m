@@ -14,6 +14,7 @@
 #import "AppDelegate.h"
 #import "PrefixHeader.pch"
 #import <TZImagePickerController.h>
+#import "ZZCalculatorViewController.h"
 
 @interface DWSettingViewController () <UITableViewDelegate, UITableViewDataSource, DWSettingSwitchCellDelegate, DWPasswordViewControllerDelegate>
 
@@ -59,7 +60,7 @@
 
 #pragma mark - UITableViewDelegate & UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 2;
+    return 4;
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -103,6 +104,14 @@
         [self presentViewController:imagePicker animated:YES completion:^{
                     
         }];
+    }else if (indexPath.row==2){
+        
+    }else if (indexPath.row==3){
+        ZZCalculatorViewController *pushVC = [[ZZCalculatorViewController alloc] init];
+        pushVC.modalPresentationStyle = UIModalPresentationOverCurrentContext;
+        [self presentViewController:pushVC animated:YES completion:^{
+                    
+        }];
     }
 }
 -(void)saveimage:(UIImage*)image{
@@ -130,9 +139,10 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (indexPath.row==1) {
+    NSArray *titleArr = @[@"",@"自定义背景",@"选择背景",@"日期计算器"];
+    if (indexPath.row>=1) {
         UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"111"];
-        cell.textLabel.text = @"自定义背景";
+        cell.textLabel.text = titleArr[indexPath.row];
         return cell;
         
     }

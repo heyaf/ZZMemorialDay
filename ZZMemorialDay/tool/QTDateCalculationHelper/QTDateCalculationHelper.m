@@ -196,7 +196,28 @@
     
     return [format stringFromDate:start];
 }
-
++ (NSString *)getTimeWithTimeString1:(NSString *)timeString
+                               year:(NSInteger)year
+                              month:(NSInteger)month
+                                day:(NSInteger)day
+                             format:(NSString *)formatString
+{
+    NSDateFormatter *format = [[NSDateFormatter alloc] init];
+    format.dateFormat = formatString;
+    format.timeZone = [NSTimeZone systemTimeZone];
+    NSDate *beginDate = [format dateFromString:timeString];
+    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
+    NSDateComponents *comps = nil;
+    comps = [calendar components:NSCalendarUnitYear|NSCalendarUnitMonth|NSCalendarUnitDay fromDate:beginDate];
+    NSDateComponents *adcomps = [[NSDateComponents alloc] init];
+    
+    [adcomps setYear:year];
+    [adcomps setMonth:month];
+    [adcomps setDay:-day];
+    NSDate *start = [calendar dateByAddingComponents:adcomps toDate:beginDate options:0];
+    
+    return [format stringFromDate:start];
+}
 /// =============== 返回n时,n分,n秒后的时间 ===============
 /// @param timeString 开始计算的日期
 /// @param hour 小时数
