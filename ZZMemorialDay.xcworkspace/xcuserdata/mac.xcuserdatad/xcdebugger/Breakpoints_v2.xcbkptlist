@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DBBC338B-E409-4FBF-AA79-543B1BF64C89"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "375020E6-81FA-44B2-95FD-DEE7BAB86E35"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/HWDownSelectedView/HWDownSelectedTF/HWDownSelectedView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "-show"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "375020E6-81FA-44B2-95FD-DEE7BAB86E35 - 3908d2901061aa43"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[HWDownSelectedView show]"
+                  moduleName = "HWDownSelectedView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/%E5%BC%80%E5%8F%91%E9%A1%B9%E7%9B%AE/ZZMemorialDay%20/ZZMemorialDay%202/Pods/HWDownSelectedView/HWDownSelectedTF/HWDownSelectedView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "375020E6-81FA-44B2-95FD-DEE7BAB86E35 - 3908d2901061aa43"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[HWDownSelectedView show]"
+                  moduleName = "HWDownSelectedView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/%E5%BC%80%E5%8F%91%E9%A1%B9%E7%9B%AE/ZZMemorialDay%20/ZZMemorialDay%202/Pods/HWDownSelectedView/HWDownSelectedTF/HWDownSelectedView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF5FC1E2-EEBC-47AB-9E13-F068B15EE883"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/HWDownSelectedView/HWDownSelectedTF/HWDownSelectedView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "-clickBtnClicked"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CF5FC1E2-EEBC-47AB-9E13-F068B15EE883 - a8e2c7e63b14c20c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[HWDownSelectedView clickBtnClicked]"
+                  moduleName = "HWDownSelectedView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/%E5%BC%80%E5%8F%91%E9%A1%B9%E7%9B%AE/ZZMemorialDay%20/ZZMemorialDay%202/Pods/HWDownSelectedView/HWDownSelectedTF/HWDownSelectedView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "46">
+               </Location>
+               <Location
+                  uuid = "CF5FC1E2-EEBC-47AB-9E13-F068B15EE883 - a8e2c7e63b14c20c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[HWDownSelectedView clickBtnClicked]"
+                  moduleName = "HWDownSelectedView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/%E5%BC%80%E5%8F%91%E9%A1%B9%E7%9B%AE/ZZMemorialDay%20/ZZMemorialDay%202/Pods/HWDownSelectedView/HWDownSelectedTF/HWDownSelectedView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "486A22AE-DBCA-4FBB-99C9-2F868942FFCC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1"
+            scope = "1"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

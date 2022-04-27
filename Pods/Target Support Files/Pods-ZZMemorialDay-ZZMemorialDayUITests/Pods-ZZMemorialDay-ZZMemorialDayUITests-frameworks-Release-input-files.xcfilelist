@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-ZZMemorialDay-ZZMemorialDayUITests/Pods-ZZMemorialDay-ZZMemorialDayUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/HWDownSelectedView/HWDownSelectedView.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework

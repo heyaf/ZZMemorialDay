@@ -1,0 +1,26 @@
+PODS:
+  - HWDownSelectedView (1.0.1)
+  - SDWebImage (5.12.1):
+    - SDWebImage/Core (= 5.12.1)
+  - SDWebImage/Core (5.12.1)
+  - TZImagePickerController (3.6.7)
+
+DEPENDENCIES:
+  - HWDownSelectedView (~> 1.0.1)
+  - SDWebImage
+  - TZImagePickerController
+
+SPEC REPOS:
+  trunk:
+    - HWDownSelectedView
+    - SDWebImage
+    - TZImagePickerController
+
+SPEC CHECKSUMS:
+  HWDownSelectedView: 950a2d2e5b0e5d9538b33873c3badf642e461b86
+  SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
+  TZImagePickerController: 679ae9fa11e189a9a81291ae96f0a4463be8edc1
+
+PODFILE CHECKSUM: 29a4f409d701a083598ab9b87896ec3855040efa
+
+COCOAPODS: 1.11.2
