@@ -2,4 +2,5 @@ ${PODS_ROOT}/Target Support Files/Pods-ZZMemorialDay/Pods-ZZMemorialDay-framewor
 ${BUILT_PRODUCTS_DIR}/BRPickerView/BRPickerView.framework
 ${BUILT_PRODUCTS_DIR}/HWDownSelectedView/HWDownSelectedView.framework
 ${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SXAlertView/SXAlertView.framework
 ${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework

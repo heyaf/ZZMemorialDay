@@ -17,7 +17,7 @@
 #import "DWSettingViewController.h"
 #import "DropDownListPicker.h"
 #import <HWDownSelectedView.h>
-
+#import <SXAlertView.h>
 #import "AppDelegate.h"
 
 typedef enum : NSUInteger {
@@ -51,6 +51,8 @@ typedef enum : NSUInteger {
 //选择的类型
 @property (nonatomic,assign) NSInteger typeSelect;
 @property (nonatomic,strong) UIImageView *bgImageV;
+
+@property (nonatomic,assign) BOOL showed;
 @end
 
 @implementation ViewController{
@@ -97,7 +99,9 @@ typedef enum : NSUInteger {
     self.typeSelect = 0;
     _arrayModel = [[NSMutableArray alloc] init];
     [self updateTableViewDataSourceFromDataBase];
-    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        self.showed = YES;
+    });
     
     _arrayModelDay = [[NSMutableArray alloc] init];
     
@@ -273,7 +277,30 @@ typedef enum : NSUInteger {
     [_contentView showAnimated];
     _currentIndexPath = indexPath;
 }
+-(void)chooseAlertView{
+    if (self.showed) {
+        return;
+    }
+    NSString *dateStr1;
+    for (int i =0; i<_arrayModel.count; i++) {
+        NSString *str = [_arrayModel[i] valueForKey:@"date"];
+        NSString *dataStr = [NSString stringWithFormat:@"%@",str];
+        NSString *dataStr2 = [dataStr componentsSeparatedByString:@" +"][0];
+        NSInteger count = [NSString distanceTodayDayCount:dataStr2];
+        if (count>0) {
+            dateStr1 = dataStr2;
+            break;
+        }
+    }
+    if (dateStr1.length>0) {
 
+        [SXAlertView showWithTitle:@"您近期有日程" message:[NSString stringWithFormat:@"您在近期有个日程,请留意"] cancelButtonTitle:@"取消" otherButtonTitle:@"好的" clickButtonBlock:^(SXAlertView * _Nonnull alertView, NSInteger buttonIndex) {
+                    
+        }];
+    }
+    
+    
+}
 - (void)didChangeValueOfSegmentControl:(UISegmentedControl *)segment {
     self.pickbtn.hidden = !(segment.selectedSegmentIndex==0);
     switch (segment.selectedSegmentIndex) {
@@ -503,7 +530,7 @@ typedef enum : NSUInteger {
             return (NSComparisonResult)NSOrderedSame;
         };
         _arrayModel = [[tmpArray sortedArrayUsingComparator:comparator] mutableCopy];
-        
+        [self chooseAlertView];
         [_tableView reloadData];
     });
 }

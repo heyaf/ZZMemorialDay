@@ -15,12 +15,14 @@ PODS:
   - SDWebImage (5.12.1):
     - SDWebImage/Core (= 5.12.1)
   - SDWebImage/Core (5.12.1)
+  - SXAlertView (2.2)
   - TZImagePickerController (3.6.7)
 
 DEPENDENCIES:
   - BRPickerView
   - HWDownSelectedView (~> 1.0.1)
   - SDWebImage
+  - SXAlertView (= 2.2)
   - TZImagePickerController
 
 SPEC REPOS:
@@ -28,14 +30,16 @@ SPEC REPOS:
     - BRPickerView
     - HWDownSelectedView
     - SDWebImage
+    - SXAlertView
     - TZImagePickerController
 
 SPEC CHECKSUMS:
   BRPickerView: 2a1620caf218e37a3aca9626732719a419928b15
   HWDownSelectedView: 950a2d2e5b0e5d9538b33873c3badf642e461b86
   SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
+  SXAlertView: de20ffbd3c63df4bece9bc344d209682d1919137
   TZImagePickerController: 679ae9fa11e189a9a81291ae96f0a4463be8edc1
 
-PODFILE CHECKSUM: 54eb73c196dcf61e51b916a209a7b3a7b467028d
+PODFILE CHECKSUM: edad27c29071abbffa09834a194fabec95ea9193
 
 COCOAPODS: 1.11.2
