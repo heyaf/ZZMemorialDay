@@ -9,7 +9,8 @@
 #import "ViewController.h"
 #import "DWSettingStore.h"
 #import "DWPasswordViewController.h"
-
+#import <BUAdSDK/BUAdSDK.h>
+#import <AppTrackingTransparency/AppTrackingTransparency.h>
 @interface AppDelegate ()<DWPasswordViewControllerDelegate>
 
 @end
@@ -18,7 +19,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [self loadUserInfoFromDataBase];
-    
+    [BUAdSDKManager setAppID:@"5272247"];
+    [BUAdSDKManager startWithAsyncCompletionHandler:^(BOOL success, NSError *error) {
+       if (success) { ///
+           NSLog(@"启动广告成功");
+       }else{
+           NSLog(@"启动广告失败");
+       }
+         }];
     if ([DWSettingStore sharedInstance].isLocked) {
         DWPasswordViewController *passwordController = [[DWPasswordViewController alloc] init];
         passwordController.isSettingMode = NO;

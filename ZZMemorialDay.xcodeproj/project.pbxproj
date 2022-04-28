@@ -433,6 +433,7 @@
 				049E9B632799AFDC00C1C376 /* Frameworks */,
 				049E9B642799AFDC00C1C376 /* Resources */,
 				F7FD8BBDB380600DBECA3A9C /* [CP] Embed Pods Frameworks */,
+				2622AEE6DC9A3129A48D4D2D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -471,6 +472,7 @@
 				049E9B892799AFE000C1C376 /* Frameworks */,
 				049E9B8A2799AFE000C1C376 /* Resources */,
 				4445730912CA88A6D489850F /* [CP] Embed Pods Frameworks */,
+				248FA03E6791522841EDE7DE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -552,6 +554,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		248FA03E6791522841EDE7DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZZMemorialDay-ZZMemorialDayUITests/Pods-ZZMemorialDay-ZZMemorialDayUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZZMemorialDay-ZZMemorialDayUITests/Pods-ZZMemorialDay-ZZMemorialDayUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZZMemorialDay-ZZMemorialDayUITests/Pods-ZZMemorialDay-ZZMemorialDayUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2622AEE6DC9A3129A48D4D2D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZZMemorialDay/Pods-ZZMemorialDay-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZZMemorialDay/Pods-ZZMemorialDay-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZZMemorialDay/Pods-ZZMemorialDay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4445730912CA88A6D489850F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -866,14 +902,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 486V4RZC7M;
+				DEVELOPMENT_TEAM = 2DD69CFJXS;
 				INFOPLIST_FILE = ZZMemorialDay/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.memorialDay.www.ZZMemor1;
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.memorialDay.www.ZZMemor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -886,14 +923,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 486V4RZC7M;
+				DEVELOPMENT_TEAM = 2DD69CFJXS;
 				INFOPLIST_FILE = ZZMemorialDay/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.memorialDay.www.ZZMemor1;
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.memorialDay.www.ZZMemor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};

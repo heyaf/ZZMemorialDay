@@ -19,13 +19,14 @@
 #import <HWDownSelectedView.h>
 #import <SXAlertView.h>
 #import "AppDelegate.h"
+#import <BUAdSDK/BUAdSDK.h>
 
 typedef enum : NSUInteger {
     CONTROLLER_MODE_BROWSE,
     CONTROLLER_MODE_CALENDAR,
     CONTROLLER_MODE_TYPING,
 } DWControllerMode;
-@interface ViewController ()<UITableViewDelegate, UITableViewDataSource, DWDiaryTypingCalendarDelegate, DWDiaryTypingDelegate, DWDiaryContentViewDelegate, DWSettingViewControllerDelegate,HWDownSelectedViewDelegate>
+@interface ViewController ()<UITableViewDelegate, UITableViewDataSource, DWDiaryTypingCalendarDelegate, DWDiaryTypingDelegate, DWDiaryContentViewDelegate, DWSettingViewControllerDelegate,HWDownSelectedViewDelegate,BUSplashAdDelegate>
 
 @property (strong, nonatomic) NSMutableArray *arrayModel;
 @property (strong, nonatomic) NSMutableArray *arrayModelDay;
@@ -51,6 +52,7 @@ typedef enum : NSUInteger {
 //选择的类型
 @property (nonatomic,assign) NSInteger typeSelect;
 @property (nonatomic,strong) UIImageView *bgImageV;
+@property (nonatomic,strong) BUSplashAdView *splashAdView;
 
 @property (nonatomic,assign) BOOL showed;
 @end
@@ -186,6 +188,36 @@ typedef enum : NSUInteger {
     [_disKeyboardButton setFrame:CGRectMake(DWScreenWidth - DWDisKeyboardButtonWidth, DWDisKeyboardButtonHeight + DWDisKeyboardButtonHeight, DWDisKeyboardButtonWidth, DWDisKeyboardButtonHeight)];
 
     _controllerMode = CONTROLLER_MODE_BROWSE;
+    
+    CGRect frame = [UIScreen mainScreen].bounds;
+    self.splashAdView = [[BUSplashAdView alloc] initWithSlotID:@"887697218" frame:frame];
+    // tolerateTimeout = CGFLOAT_MAX , The conversion time to milliseconds will be equal to 0
+    self.splashAdView.tolerateTimeout = 10;
+    self.splashAdView.delegate = self;
+    //optional
+    [self.splashAdView loadAdData];
+    [self.view addSubview:self.splashAdView];
+    self.splashAdView.rootViewController = self;
+}
+-(void)splashAdDidLoad:(BUSplashAdView *)splashAd{
+    NSLog(@"广告位加载成功");
+}
+-(void)splashAd:(BUSplashAdView *)splashAd didFailWithError:(NSError *)error{
+    NSLog(@"广告位加载失败%@",error);
+    [self.splashAdView removeFromSuperview];
+
+}
+
+-(void)splashAdDidClickSkip:(BUSplashAdView *)splashAd{
+    [self.splashAdView removeFromSuperview];
+    NSLog(@"广告位取消");
+
+}
+- (void)splashAdDidClick:(BUSplashAdView *)splashAd{
+    [self.splashAdView removeFromSuperview];
+    NSLog(@"广告位点击");
+
+
 }
 
 - (void)viewWillAppear:(BOOL)animated {

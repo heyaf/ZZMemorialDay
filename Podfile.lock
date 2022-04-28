@@ -1,4 +1,11 @@
 PODS:
+  - Ads-CN (4.2.5.3):
+    - Ads-CN/BUAdSDK (= 4.2.5.3)
+  - Ads-CN/BUAdSDK (4.2.5.3):
+    - Ads-CN/BUFoundation
+    - Ads-CN/Domestic
+  - Ads-CN/BUFoundation (4.2.5.3)
+  - Ads-CN/Domestic (4.2.5.3)
   - BRPickerView (2.7.6):
     - BRPickerView/AddressPickerView (= 2.7.6)
     - BRPickerView/Base (= 2.7.6)
@@ -19,6 +26,7 @@ PODS:
   - TZImagePickerController (3.6.7)
 
 DEPENDENCIES:
+  - Ads-CN
   - BRPickerView
   - HWDownSelectedView (~> 1.0.1)
   - SDWebImage
@@ -27,6 +35,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - Ads-CN
     - BRPickerView
     - HWDownSelectedView
     - SDWebImage
@@ -34,12 +43,13 @@ SPEC REPOS:
     - TZImagePickerController
 
 SPEC CHECKSUMS:
+  Ads-CN: 4ac0fb5c5b7160fe41ac0119f46517c5722aa9b4
   BRPickerView: 2a1620caf218e37a3aca9626732719a419928b15
   HWDownSelectedView: 950a2d2e5b0e5d9538b33873c3badf642e461b86
   SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
   SXAlertView: de20ffbd3c63df4bece9bc344d209682d1919137
   TZImagePickerController: 679ae9fa11e189a9a81291ae96f0a4463be8edc1
 
-PODFILE CHECKSUM: edad27c29071abbffa09834a194fabec95ea9193
+PODFILE CHECKSUM: 68ded13d7cc53b3be85c3b0025b93a3d154b589e
 
 COCOAPODS: 1.11.2
