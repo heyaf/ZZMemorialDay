@@ -2,15 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSAllowsArbitraryLoads</key>
-		<true/>
-	</dict>
-	<key>Photo Library Usage Description</key>
-	<string>需要获取您设备的相册，以为您更好的自定义漂亮的背景图片</string>
-	<key>NSUserTrackingUsageDescription</key>
-	<string>需要获取您设备的广告标识符，以为您提供更好的广告体验</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
@@ -31,8 +22,17 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>允许该APP访问您的相册以便于自定义背景</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>需要获取您设备的广告标识符，以为您提供更好的广告体验</string>
+	<key>Photo Library Usage Description</key>
+	<string>需要获取您设备的相册，以为您更好的自定义漂亮的背景图片</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
